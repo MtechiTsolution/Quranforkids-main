@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Dua_9">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="چھینک آنے پر"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:fontFamily="@font/urdufont"
+        android:background="#CDA69A"
+        android:textColor="@color/black">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="#000000"
+        android:layout_margin="10dp"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:fontFamily="@font/nabi_regular"
+        android:background="#C89F92"
+        android:text="اَلْحَمْدُ لِلّٰہِ"
+        android:textSize="30sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#856022"
+        android:padding="10dp"
+        android:textIsSelectable="true"
+        android:fontFamily="@font/b612"
+        android:text="All praise onto Allah Almighty."
+        android:textSize="25sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#856022"
+        android:fontFamily="@font/urdufont"
+        android:padding="10dp"
+        android:textIsSelectable="true"
+        android:text="تمام تعریفیں اللہ عزوجل کےلئے ہیں۔"
+        android:textSize="25sp">
+    </TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sneeze">
+
+    </ImageView>
+
+
+
+
+</LinearLayout>

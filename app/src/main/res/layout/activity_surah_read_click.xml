@@ -1,0 +1,1565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Surah_read_click">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="SURAH'S"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:fontFamily="@font/bubblegum"
+        android:background="@color/white"
+        android:textColor="#F3116A">
+
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#8CED90"
+                    android:gravity="center"
+                    android:id="@+id/surah_one"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="1. Surah An-Nas"
+                        android:textColor="@color/black"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:text="سُوْرَۃُ النَّاس"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+                android:id="@+id/card1"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#E38DF3"
+                    android:gravity="center"
+                    android:id="@+id/surah_two"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="2. Surah Al-Falaq"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:text="سُوْرَۃُ الفَلَق"
+                        android:textColor="@color/black"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#F191B2"
+                    android:gravity="center"
+                    android:id="@+id/surah_three"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:text="3. Surah Al-Ikhlas"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ الإِخْلَاص"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#99CDF6"
+                    android:gravity="center"
+                    android:id="@+id/surah_four"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="4. Surah Al-Masad"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ المَسَد"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#F6EC92"
+                    android:gravity="center"
+                    android:id="@+id/surah_five"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:text="5. Surah An-Nasr"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:text="سُوْرَۃُ النَّصْر"
+                        android:textColor="@color/black"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#F3AF9A"
+                    android:gravity="center"
+                    android:id="@+id/surah_six"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:text="6. Surah Al-Kafirun"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ الكَافِرُون"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#C2A7F1"
+                    android:gravity="center"
+                    android:id="@+id/surah_seven"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:text="7. Surah Al-Kawthar"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:text="سُوْرَۃُ الكَوْثَر"
+                        android:textColor="@color/black"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#AEEDF4"
+                    android:gravity="center"
+                    android:id="@+id/surah_eight"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:text="8. Surah Al-Ma'un"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ المَاعُون"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#C6ED98"
+                    android:gravity="center"
+                    android:id="@+id/surah_nine"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="9. Surah Quraysh"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃ قُرَيْش"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#F4CC91"
+                    android:gravity="center"
+                    android:id="@+id/surah_ten"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:text="10. Surah Al-Fil"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ الفِيل"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#FBA0BF"
+                    android:gravity="center"
+                    android:id="@+id/surah_eleven"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="11. Surah Al-Humazah"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ الهُمَزَة"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#A7F4AA"
+                    android:gravity="center"
+                    android:id="@+id/surah_twelve"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="12. Surah Al-'Asr"
+                        android:textColor="@color/black"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:text="سُوْرَۃُ العَصْر"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#E5A1F1"
+                    android:gravity="center"
+                    android:id="@+id/surah_thirteen"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="13. Surah At-Takathur"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:text="	سُوْرَۃُ التَّكَاثُر"
+                        android:textColor="@color/black"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#FA9EBE"
+                    android:gravity="center"
+                    android:id="@+id/surah_fourteen"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:text="14. Surah Al-Qari'ah"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="	سُوْرَۃُ القَارِعَة"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#A2CEF1"
+                    android:gravity="center"
+                    android:id="@+id/surah_fifteen"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="15. Surah Al-'Adiyat"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="	سُوْرَۃُ العَادِيَات"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#F1E795"
+                    android:gravity="center"
+                    android:id="@+id/surah_sixteen"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:text="16. Surah Az-Zalzalah"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:text="سُوْرَۃُ الزَّلْزَلَة"
+                        android:textColor="@color/black"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#F6BCAA"
+                    android:gravity="center"
+                    android:id="@+id/surah_seventeen"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:text="17. Surah Al-Bayyinah"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ البَيِّنَة"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#AF8AF1"
+                    android:gravity="center"
+                    android:id="@+id/surah_eighteen"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:text="18. Surah Al-Qadr"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:text="سُوْرَۃُ القَدْر"
+                        android:textColor="@color/black"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#B8ECF3"
+                    android:gravity="center"
+                    android:id="@+id/surah_nineteen"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:text="19. Surah Al-'Alaq"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ العَلَق"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#CCF69C"
+                    android:gravity="center"
+                    android:id="@+id/surah_twenty"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="20. Surah At-Tin"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="	سُوْرَۃُ التِّين"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#FAD49B"
+                    android:gravity="center"
+                    android:id="@+id/surah_twenty1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:text="21. Surah Ash-Sharh"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ الشَّرْح"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#F3ABC3"
+                    android:gravity="center"
+                    android:id="@+id/surah_twenty2"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="22. Surah Ad-Duhaa"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ الضُّحَىٰ"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#DFACF4"
+                    android:gravity="center"
+                    android:id="@+id/surah_twenty3"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="23. Surah Al-Layl"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ اللَّيْل"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#B1F8F0"
+                    android:gravity="center"
+                    android:id="@+id/surah_twenty4"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="24. Surah Ash-Shams"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ الشَّمْس"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#F8B6B6"
+                    android:gravity="center"
+                    android:id="@+id/surah_twenty5"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="25. Surah Al-Balad"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="	سُوْرَۃُ البَلَدٰ"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#CDF4AB"
+                    android:gravity="center"
+                    android:id="@+id/surah_twenty6"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="26. Surah Al-Fajr"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ الفَجْر"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#D99BF3"
+                    android:gravity="center"
+                    android:id="@+id/surah_twenty7"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="27. Surah Al-Ghashiyah"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ الغَاشِيَة"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#F6ABC8"
+                    android:gravity="center"
+                    android:id="@+id/surah_twenty8"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="28. Surah Al-A'la"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ الأَعْلَىٰ"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#A6CCF3"
+                    android:gravity="center"
+                    android:id="@+id/surah_twenty9"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="29. Surah At-Tariq"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ الطَّارِق"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#F2F68F"
+                    android:gravity="center"
+                    android:id="@+id/surah_thirty"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="30. Surah Al-Buruj"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ البُرُوج"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#ECCD81"
+                    android:gravity="center"
+                    android:id="@+id/surah_thirty1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="31. Surah Al-Inshiqaq"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ الإِنْشِقَاق"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#DEA9F4"
+                    android:gravity="center"
+                    android:id="@+id/surah_thirty2"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="32. Surah Al-Mutaffifin"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ المُطَفِّفِين"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#B8FFF7"
+                    android:gravity="center"
+                    android:id="@+id/surah_thirty3"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="33. Surah Al-Infitar"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ الإِنْفِطَار"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#CDF4AB"
+                    android:gravity="center"
+                    android:id="@+id/surah_thirty4"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="34. Surah At-Takwir"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="سُوْرَۃُ التَّكْوِير"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#E4B9F6"
+                    android:gravity="center"
+                    android:id="@+id/surah_thirty5"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="35. Surah Fatiha"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nabi_regular"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="	سُوْرَۃُ الفَاتِحَة"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

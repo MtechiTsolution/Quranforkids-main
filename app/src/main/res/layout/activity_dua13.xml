@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Dua_13">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="دودھ پینے کے بعد"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:fontFamily="@font/urdufont"
+        android:background="#F6D687"
+        android:textColor="@color/black">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="#000000"
+        android:layout_margin="10dp"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:fontFamily="@font/nabi_regular"
+        android:background="#F8D785"
+        android:text="اَللّٰھُمَّ بَارِکْ لَنَا فِیْہِ وَزِدْنَامِنْہُ"
+        android:textSize="30sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EAA700"
+        android:fontFamily="@font/b612"
+        android:padding="10dp"
+        android:textIsSelectable="true"
+        android:text="O Allah Azzawajal give us abundance in this and grant us more than this."
+        android:textSize="25sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EAA700"
+        android:fontFamily="@font/urdufont"
+        android:padding="10dp"
+        android:textIsSelectable="true"
+        android:text="یا الہی عزوجل ہمارے لئے اس میں برکت دے اور ہمیں اس سے زیادہ عنایت فرما۔"
+        android:textSize="25sp">
+    </TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/drinkmilk">
+
+    </ImageView>
+
+</LinearLayout>

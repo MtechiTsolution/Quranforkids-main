@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#AF10C1"
+    tools:context=".pehla_kalma">
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="70dp"
+      android:text="پہلا کلمہ طیب"
+      android:textSize="35sp"
+      android:gravity="center"
+      android:fontFamily="@font/urdufont"
+        android:background="#AF10C1"
+        android:textColor="@color/white">
+  </TextView>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="k"
+                        android:fontFamily="@font/bismillah"
+                        android:textSize="45sp"
+                        android:textColor="#690097"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#690097"
+                            android:fontFamily="@font/nabi_regular"
+                            android:paddingRight="15dp"
+                            android:text="لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله"
+                            android:textSize="25sp"
+                            android:gravity="center"
+                            >
+                        </TextView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#690097"
+                            android:paddingLeft="15dp"
+                            android:fontFamily="serif"
+                            android:text="There is no God but Allah. Muhammad is the Messenger of Allah."
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            >
+                        </TextView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#690097"
+                            android:gravity="center"
+                            android:fontFamily="@font/urdufont"
+                            android:text="اللہ کے سوا کوئی معبود نہیں محمّدؐ اللہ کے رسول ہے"
+                            android:textSize="20sp">
+                        </TextView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+</LinearLayout>

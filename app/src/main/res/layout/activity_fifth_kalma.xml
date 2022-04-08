@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#066157"
+    android:id="@+id/fifth"
+    tools:context=".Fifth_kalma">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="پانچواں کلمہ استغفار"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:fontFamily="@font/urdufont"
+        android:background="#066157"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="k"
+                        android:textIsSelectable="true"
+                        android:fontFamily="@font/bismillah"
+                        android:textSize="45sp"
+                        android:textColor="#066157"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#066157"
+                        android:textIsSelectable="true"
+                        android:padding="5dp"
+                        android:fontFamily="@font/nabi_regular"
+                        android:gravity="center"
+                        android:text="اَسْتَغْفِرُ اللهَ رَبِّىْ مِنْ كُلِّ ذَنْۢبٍ اَذْنَبْتُهٗ عَمَدًا اَوْ خَطَا ًٔ سِرًّا اَوْ عَلَانِيَةً وَّاَتُوْبُ اِلَيْهِ مِنَ الذَّنْۢبِ الَّذِیْٓ اَعْلَمُ وَ مِنَ الذَّنْۢبِ الَّذِىْ لَآ اَعْلَمُ اِنَّكَ اَنْتَ عَلَّامُ الْغُيُوْبِ وَ سَتَّارُ الْعُيُوْبِ و َغَفَّارُ الذُّنُوْبِ وَ لَا حَوْلَ وَلَا قُوَّةَ اِلَّا بِاللهِ الْعَلِىِّ الْعَظِيْمِؕ"
+                        android:textSize="25sp">
+                    </TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/b612"
+                        android:gravity="center"
+                        android:textIsSelectable="true"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:text="Forgive me, O my God, for every sin that I have committed intentionally or by mistake, openly or secretly, and I repent to Him for the sin that I know and for the sin that I know. Nay, verily Thou art the Knower of the faults and the Concealer of the faults, and the Forgiver of sins, and the power to avoid sins and to do good is from Allah. Who is glorious and majestic."
+                        android:textColor="#066157"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#066157"
+                        android:fontFamily="@font/urdufont"
+                        android:gravity="center"
+                        android:textIsSelectable="true"
+                        android:padding="5dp"
+                        android:text="معافی مانگتا ہوں اے میرے اللہ ہر گناہ سے جو میں نے جان بوجھ کر کی ہے یا بھول کر کی ہے ،در پردہ یا کھلم کھلا اور میں توبہ کرتا ہو اسکے حضور میں اس گناہ سے جو مجھے معلوم ہے اور اس گناہ سے جو مجھے معلوم نہیں،بے شک تو عیبوں کو جاننے والے اور عیبوں کو چھپانے والا ہے، اور گناہوں سے بخشنے والا ہے اور گناہوں سے بچنے کی طاقت اور نیک کام کرنے کی طاقت اللہ ہی کی طرف سے ہے۔ جو عالی شان اور عظمت والا ہے۔"
+                        android:textSize="20sp">
+
+                    </TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

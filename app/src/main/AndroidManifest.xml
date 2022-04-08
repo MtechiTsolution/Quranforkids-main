@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qfk">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="QFK"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QFK">
+        <activity
+            android:name=".Surah_25"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_24"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_23"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_22"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_21"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_20"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_35"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_34"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_33"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_32"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_31"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_30"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_29"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_28"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_27"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_26"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Screen"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Surah_18"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_17"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_16"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_15"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_14"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_13"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_12"
+            android:exported="false" />
+        <activity
+            android:name=".surah11"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_10"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_9"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_8"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_7"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_6"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_5"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_4"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_3"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_2"
+            android:exported="false" />
+        <activity
+            android:name=".Surah_1"
+            android:exported="false" />
+        <activity
+            android:name=".Dua_16"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dua_15"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dua_14"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dua_13"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dua_12"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dua_11"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dua_10"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dua_9"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dua_8"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dua_7"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dua_6"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dua_5"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dua_4"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dua_3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dua_2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dua_1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Six_kalma"
+            android:exported="false" />
+        <activity
+            android:name=".Fifth_kalma"
+            android:exported="false" />
+        <activity
+            android:name=".Fourth_kalma"
+            android:exported="false" />
+        <activity
+            android:name=".Third_kalma"
+            android:exported="false" />
+        <activity
+            android:name=".Second_kalma"
+            android:exported="false" />
+        <activity
+            android:name=".pehla_kalma"
+            android:exported="false" />
+        <activity
+            android:name=".Dua_listen_click"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Kalma_listen_click"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Surah_listen_click"
+            android:exported="false" />
+        <activity
+            android:name=".Dua_read_click"
+            android:exported="false" />
+        <activity
+            android:name=".Kalma_read_click"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Surah_read_click"
+            android:exported="false" />
+        <activity
+            android:name=".ListenClick"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReadClick"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Surah_19"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

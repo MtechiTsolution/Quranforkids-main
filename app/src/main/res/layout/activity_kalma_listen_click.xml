@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Kalma_listen_click">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="KALIMAT"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:fontFamily="@font/bubblegum"
+        android:background="@color/white"
+        android:textColor="#F13D84">
+    </TextView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+
+            </TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/kalmaimg">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+            </TextView>
+
+            <Button
+                android:id="@+id/one_listen"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="#F34E8F"
+                android:drawableRight="@drawable/ic_baseline_play_arrow_24"
+                android:fontFamily="@font/kalmafont"
+                android:gravity="right|center"
+                android:paddingRight="90dp"
+                android:text="کلمہ طیبہ"
+                android:textColor="@color/white"
+                android:textSize="25sp">
+
+            </Button>
+            <Button
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:gravity="right|center"
+                android:background="#512DA8"
+                android:fontFamily="@font/kalmafont"
+                android:paddingRight="90dp"
+                android:drawableRight="@drawable/ic_baseline_play_arrow_24"
+                android:text=" کلمہ شہادت"
+                android:textColor="@color/white"
+                android:textSize="25sp">
+
+    </Button>
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#D32F2F"
+        android:fontFamily="@font/kalmafont"
+        android:gravity="right|center"
+        android:paddingRight="90dp"
+        android:drawableRight="@drawable/ic_baseline_play_arrow_24"
+        android:text=" کلمہ تمجید"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#689F38"
+        android:text="کلمہ توحید"
+        android:gravity="right|center"
+        android:textSize="25sp"
+        android:paddingRight="90dp"
+        android:drawableRight="@drawable/ic_baseline_play_arrow_24"
+        android:textColor="@color/white"
+        android:fontFamily="@font/kalmafont">
+
+    </Button>
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#7B1FA2"
+        android:fontFamily="@font/kalmafont"
+        android:gravity="right|center"
+        android:paddingRight="90dp"
+        android:drawableRight="@drawable/ic_baseline_play_arrow_24"
+        android:text=" کلمہ استغفار"
+        android:textColor="@color/white"
+        android:textSize="25sp">
+
+    </Button>
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#00796B"
+        android:text="کلمہ رد کفر"
+        android:gravity="right|center"
+        android:textSize="25sp"
+        android:paddingRight="90dp"
+        android:drawableRight="@drawable/ic_baseline_play_arrow_24"
+        android:textColor="@color/white"
+        android:fontFamily="@font/kalmafont">
+
+    </Button>
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

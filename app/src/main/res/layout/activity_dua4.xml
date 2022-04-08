@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Dua_4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="جاگنے کے بعد"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:fontFamily="@font/urdufont"
+        android:background="#7ADFD3"
+        android:textColor="@color/black">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:fontFamily="@font/nabi_regular"
+        android:background="#82E6DB"
+        android:textIsSelectable="true"
+        android:text="الْحَمْدُ لِلّٰہِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ"
+        android:textSize="30sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#008777"
+        android:padding="10dp"
+        android:fontFamily="@font/b612"
+        android:textIsSelectable="true"
+        android:text="All Praise onto Allah (Almighty) Who granted us life after death (Sleep) and we are return to him."
+        android:textSize="25sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#008777"
+        android:fontFamily="@font/urdufont"
+        android:padding="10dp"
+        android:textIsSelectable="true"
+        android:text="تمام تعریفیں اللہ عزوجل کے لئے جس نے ہمیں موت (نیند) کے بعد حیات (بیداری) عطا فرمائی اور ہمیں اسی طرف لوٹنا ہے۔"
+        android:textSize="25sp">
+    </TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/afterawake">
+
+    </ImageView>
+
+
+
+</LinearLayout>
