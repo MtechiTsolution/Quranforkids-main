@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/rowID"
     android:background="@color/white"
-    tools:context=".Dua_1">
+    >
 
     <TextView
         android:layout_width="match_parent"
@@ -14,7 +15,7 @@
         android:text="سونے سے پہلے"
         android:textSize="35sp"
         android:gravity="center"
-        android:id="@+id/title2"
+        android:id="@+id/titledua"
         android:fontFamily="@font/urdufont"
         android:background="#ACEC77"
         android:textColor="@color/black">
@@ -23,7 +24,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="30dp"
-     >
+        >
 
     </TextView>
     <TextView
@@ -32,7 +33,7 @@
         android:textColor="#000000"
         android:layout_margin="10dp"
         android:gravity="center"
-        android:id="@+id/arabic"
+        android:id="@+id/arabicdua"
         android:textIsSelectable="true"
         android:fontFamily="@font/nabi_regular"
         android:background="#B1F179"
@@ -44,10 +45,9 @@
         android:layout_height="wrap_content"
         android:textColor="#54B500"
         android:fontFamily="@font/b612"
-
         android:padding="10dp"
         android:textIsSelectable="true"
-        android:id="@+id/e_trans"
+        android:id="@+id/dua1_etranslation_"
         android:text="O Allah (Almighty) I live and die in your name."
         android:textSize="25sp">
     </TextView>
@@ -58,14 +58,14 @@
         android:fontFamily="@font/urdufont"
         android:textIsSelectable="true"
         android:padding="10dp"
-        android:id="@+id/u_trans"
+        android:id="@+id/dua1_utranslation_"
         android:text="الٰہی عزوجل میں تیرے نام پر مرتا ہوں اور جیتا ہوں۔"
         android:textSize="25sp">
     </TextView>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/image"
+        android:id="@+id/dua_imageview"
         android:src="@drawable/ss_leep">
 
     </ImageView>

@@ -2,6 +2,7 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/aclonica_regular</item>
+        <item>@font/alata</item>
         <item>@font/chewy_regular</item>
         <item>@font/holtwood_one_sc_regular</item>
     </array>
