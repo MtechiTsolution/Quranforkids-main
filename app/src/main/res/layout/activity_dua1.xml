@@ -7,7 +7,6 @@
     android:orientation="vertical"
     android:background="@color/white"
     tools:context=".Dua_1">
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="70dp"
