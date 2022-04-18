@@ -67,7 +67,7 @@ public class myAdapter extends RecyclerView.Adapter<myAdapter.holder> {
             public void onClick(View view) {
 
                 Intent intent=new Intent(context, Dua_1.class);
-               intent.putExtra("id",position);
+                intent.putExtra("id",position);
                 context.startActivity(intent);
             }
         });
