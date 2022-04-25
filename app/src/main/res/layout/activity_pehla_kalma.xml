@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#AF10C1"
+    android:id="@+id/linear_kalmat"
     tools:context=".pehla_kalma">
     <TextView
       android:layout_width="match_parent"
@@ -14,8 +14,8 @@
       android:text="پہلا کلمہ طیب"
       android:textSize="35sp"
       android:gravity="center"
+        android:id="@+id/title2"
       android:fontFamily="@font/urdufont"
-        android:background="#AF10C1"
         android:textColor="@color/white">
   </TextView>
         <ScrollView
@@ -78,6 +78,7 @@
                             android:textColor="#690097"
                             android:fontFamily="@font/nabi_regular"
                             android:paddingRight="15dp"
+                            android:id="@+id/arabic"
                             android:text="لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله"
                             android:textSize="25sp"
                             android:gravity="center"
@@ -108,6 +109,7 @@
                             android:textColor="#690097"
                             android:paddingLeft="15dp"
                             android:fontFamily="serif"
+                            android:id="@+id/e_trans"
                             android:text="There is no God but Allah. Muhammad is the Messenger of Allah."
                             android:textSize="20sp"
                             android:gravity="center"
@@ -137,6 +139,7 @@
                             android:textColor="#690097"
                             android:gravity="center"
                             android:fontFamily="@font/urdufont"
+                            android:id="@+id/u_trans"
                             android:text="اللہ کے سوا کوئی معبود نہیں محمّدؐ اللہ کے رسول ہے"
                             android:textSize="20sp">
                         </TextView>

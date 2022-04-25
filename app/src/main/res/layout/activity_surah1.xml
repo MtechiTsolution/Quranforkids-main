@@ -12,6 +12,7 @@
         android:layout_height="70dp"
         android:text="سُوْرَۃُ النَّاس"
         android:textSize="35sp"
+        android:id="@+id/title2"
         android:gravity="center"
         android:fontFamily="@font/bubblegum"
         android:background="#9FF4A3"
@@ -83,6 +84,7 @@
                         android:layout_weight="1"
                         android:textColor="@color/black"
                         android:textIsSelectable="true"
+                        android:id="@+id/arabic"
                         android:fontFamily="@font/nabi_regular"
                         android:paddingRight="10dp"
                         android:text="(1)   قُلۡ اَعُوۡذُ بِرَبِّ النَّاسِۙ"
@@ -95,6 +97,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:paddingLeft="10dp"
+                        android:id="@+id/e_trans"
                         android:textIsSelectable="true"
                         android:text="Say: I seek refuge in the Lord of mankind,"
                         android:textColor="@color/black"
@@ -108,299 +111,13 @@
                         android:fontFamily="@font/urdufont"
                         android:paddingLeft="10dp"
                         android:textIsSelectable="true"
+                        android:id="@+id/u_trans"
                         android:text=" کہو کہ میں لوگوں کے پروردگار کی پناہ مانگتا ہوں"
                         android:textColor="@color/black"
                         android:textSize="20sp">
-
                     </TextView>
-
-
-
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="3dp"
-                app:cardCornerRadius="15dp"
-                app:cardElevation="15dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:background="#C5F3C7"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:textColor="@color/black"
-                        android:fontFamily="@font/nabi_regular"
-                        android:paddingRight="10dp"
-                        android:textIsSelectable="true"
-                        android:text="(2) مَلِكِ النَّاسِۙ"
-                        android:textSize="25sp">
-
-                    </TextView>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:textIsSelectable="true"
-                        android:text="The King of mankind,"
-                        android:textColor="@color/black"
-                        android:textSize="20sp">
-
-                    </TextView>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/urdufont"
-                        android:paddingLeft="10dp"
-                        android:textIsSelectable="true"
-                        android:text=" (یعنی) لوگوں کے حقیقی بادشاہ کی"
-                        android:textColor="@color/black"
-                        android:textSize="20sp">
-
-                    </TextView>
-
-
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="3dp"
-                app:cardCornerRadius="15dp"
-                app:cardElevation="15dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:background="#C5F3C7"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:textColor="@color/black"
-                        android:fontFamily="@font/nabi_regular"
-                        android:paddingRight="10dp"
-                        android:textIsSelectable="true"
-                        android:text="(3) اِلٰهِ النَّاسِۙ"
-                        android:textSize="25sp">
-
-                    </TextView>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:text="The god of mankind,"
-                        android:textColor="@color/black"
-                        android:textIsSelectable="true"
-                        android:textSize="20sp">
-
-                    </TextView>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/urdufont"
-                        android:paddingLeft="10dp"
-                        android:textIsSelectable="true"
-                        android:text=" لوگوں کے معبود برحق کی"
-                        android:textColor="@color/black"
-                        android:textSize="20sp">
-
-                    </TextView>
-
-
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="3dp"
-                app:cardCornerRadius="15dp"
-                app:cardElevation="15dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:background="#C5F3C7"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:textColor="@color/black"
-                        android:fontFamily="@font/nabi_regular"
-                        android:paddingRight="10dp"
-                        android:textIsSelectable="true"
-                        android:text="(4)  مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ"
-                        android:textSize="25sp">
-
-                    </TextView>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:textIsSelectable="true"
-                        android:text="From the evil of the sneaking whisperer,"
-                        android:textColor="@color/black"
-                        android:textSize="20sp">
-
-                    </TextView>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/urdufont"
-                        android:paddingLeft="10dp"
-                        android:text=" (شیطان) وسوسہ انداز کی برائی سے جو (خدا کا نام سن کر) پیچھے ہٹ جاتا ہے"
-                        android:textColor="@color/black"
-                        android:textSize="20sp">
-
-                    </TextView>
-
-
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="3dp"
-                app:cardCornerRadius="15dp"
-                app:cardElevation="15dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:background="#C5F3C7"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:textColor="@color/black"
-                        android:fontFamily="@font/nabi_regular"
-                        android:paddingRight="10dp"
-                        android:textIsSelectable="true"
-                        android:text="(5)ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ"
-                        android:textSize="25sp">
-
-                    </TextView>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:textIsSelectable="true"
-                        android:text="Who whispereth in the hearts of mankind,"
-                        android:textColor="@color/black"
-                        android:textSize="20sp">
-
-                    </TextView>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/urdufont"
-                        android:paddingLeft="10dp"
-                        android:textIsSelectable="true"
-                        android:text=" جو لوگوں کے دلوں میں وسوسے ڈالتا ہے"
-                        android:textColor="@color/black"
-                        android:textSize="20sp">
-
-                    </TextView>
-
-
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="3dp"
-                app:cardCornerRadius="15dp"
-                app:cardElevation="15dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:background="#C5F3C7"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:textColor="@color/black"
-                        android:fontFamily="@font/nabi_regular"
-                        android:paddingRight="10dp"
-                        android:textIsSelectable="true"
-                        android:text="(6)مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ"
-                        android:textSize="25sp">
-
-                    </TextView>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:textIsSelectable="true"
-                        android:text="Of the jinn and of mankind."
-                        android:textColor="@color/black"
-                        android:textSize="20sp">
-                    </TextView>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/urdufont"
-                        android:paddingLeft="10dp"
-                        android:textIsSelectable="true"
-                        android:text=" وہ جنّات میں سے (ہو) یا انسانوں میں سے"
-                        android:textColor="@color/black"
-                        android:textSize="20sp">
-
-                    </TextView>
-
-
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
         </LinearLayout>
 
     </ScrollView>
