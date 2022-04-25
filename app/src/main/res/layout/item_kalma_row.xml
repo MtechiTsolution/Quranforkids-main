@@ -34,7 +34,7 @@
                 android:id="@+id/kalma_title"
 
                 android:text="سوتے وقت کی دعا"
-                android:textSize="25sp">
+                android:textSize="20sp">
             </TextView>
 
             <TextView
