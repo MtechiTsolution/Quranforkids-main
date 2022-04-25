@@ -41,7 +41,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#54B500"
+        android:textColor="@color/black"
         android:fontFamily="@font/b612"
 
         android:padding="10dp"
@@ -53,7 +53,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#54B500"
+        android:textColor="@color/white"
         android:fontFamily="@font/urdufont"
         android:textIsSelectable="true"
         android:padding="10dp"

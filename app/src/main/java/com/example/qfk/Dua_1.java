@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.ColorSpace;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -14,6 +16,8 @@ import android.widget.Toast;
 
 import com.Models.Dua_model;
 import com.example.localdata.alldata;
+
+import java.util.Random;
 
 public class Dua_1 extends AppCompatActivity {
  TextView title,arabic,u_trans,e_trans;
@@ -30,6 +34,18 @@ public class Dua_1 extends AppCompatActivity {
         e_trans=findViewById(R.id.e_trans);
         imageView=findViewById(R.id.image);
 
+        Random r = new Random();
+        int red=r.nextInt(255 - 0 + 1)+0;
+        int green=r.nextInt(255 - 0 + 1)+0;
+        int blue=r.nextInt(255 - 0 + 1)+0;
+
+        GradientDrawable draw = new GradientDrawable();
+        draw.setShape(GradientDrawable.RECTANGLE);
+        draw.setColor(Color.rgb(red,green,blue));
+        title.setBackground(draw);
+        arabic.setBackground(draw);
+        u_trans.setBackground(draw);
+        e_trans.setBackground(draw);
 
         Intent intent=getIntent();
         int intValue = intent.getIntExtra("id", 0);
