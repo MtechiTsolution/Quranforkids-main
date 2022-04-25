@@ -45,16 +45,16 @@ public class pehla_kalma extends AppCompatActivity {
         draw.setColor(Color.rgb(red,green,blue));
         linearLayout.setBackground(draw);
 
-        Random rr = new Random();
-        int redd=rr.nextInt(2300 - 0 + 1)+0;
-        int bluee=rr.nextInt(400 - 0 + 1)+0;
-        int greenn=r.nextInt(255 - 0 + 1)+0;
-        GradientDrawable draw1 = new GradientDrawable();
-        draw.setShape(GradientDrawable.RECTANGLE);
-        draw.setColor(Color.rgb(redd,greenn,bluee));
-        linearLayout.setBackground(draw1);
+//        Random rr = new Random();
+//        int redd=rr.nextInt(2300 - 0 + 1)+0;
+//        int bluee=rr.nextInt(400 - 0 + 1)+0;
+//        int greenn=r.nextInt(255 - 0 + 1)+0;
+//        GradientDrawable draw1 = new GradientDrawable();
+//        draw.setShape(GradientDrawable.RECTANGLE);
+//        draw.setColor(Color.rgb(redd,greenn,bluee));
+//        linearLayout.setBackground(draw1);
 
-        title.setBackground(draw);
+//        title.setBackground(draw);
 
         Intent intent=getIntent();
         int intValue = intent.getIntExtra("id", 0);

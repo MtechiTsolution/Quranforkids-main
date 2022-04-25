@@ -19,32 +19,38 @@
         android:textColor="#F13D84">
 
     </TextView>
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="10dp">
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/kalma_back_d">
 
-    </TextView>
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_gravity="center"
-        android:src="@drawable/kalma_back_d">
+            </ImageView>
 
-    </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="10dp">
+            </TextView>
+            <androidx.recyclerview.widget.RecyclerView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:id="@+id/recycler_kalma"
+                android:layout_height="wrap_content"
+                tools:context=".MainActivity">
+            </androidx.recyclerview.widget.RecyclerView>
 
-    </TextView>
-    <androidx.recyclerview.widget.RecyclerView
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:id="@+id/recycler_kalma"
-        android:layout_height="wrap_content"
-        tools:context=".MainActivity">
-    </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
