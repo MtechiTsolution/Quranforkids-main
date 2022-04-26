@@ -18,10 +18,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:background="#FFFFFF"
+            android:background="#03A9F4"
             android:gravity="center"
             android:padding="10sp"
-            android:id="@+id/dua_one"
+            android:id="@+id/dua_one_kalma"
             android:orientation="vertical"
             >
             <TextView

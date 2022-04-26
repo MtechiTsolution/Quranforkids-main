@@ -3,6 +3,7 @@ package com.Models;
 public class Kalmat_model {
 
     public String titile;
+    public  String color;
     public String arabic_tittle;
     public String sr_no_surah;
     public String title22;
@@ -13,7 +14,7 @@ public class Kalmat_model {
     public Kalmat_model(String titile, String arabic_tittle,
                         String sr_no_surah, String title22,
                         String arabicc, String e_transalationn,
-                        String u_translationn) {
+                        String u_translationn, String color) {
         this.titile = titile;
         this.arabic_tittle = arabic_tittle;
         this.sr_no_surah = sr_no_surah;
@@ -21,5 +22,6 @@ public class Kalmat_model {
         this.arabicc = arabicc;
         this.e_transalationn = e_transalationn;
         this.u_translationn = u_translationn;
+        this.color = color;
     }
 }

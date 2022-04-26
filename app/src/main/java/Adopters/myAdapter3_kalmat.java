@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.Models.Kalmat_model;
@@ -48,16 +50,21 @@ public class myAdapter3_kalmat extends RecyclerView.Adapter<myAdapter3_kalmat.ho
     public void onBindViewHolder(@NonNull holder holder, @SuppressLint("RecyclerView") int position) {
 //        Orders_model ds=datamodels.get(position);
         Kalmat_model p=arrayList.get(position);
+//        Random r = new Random();
+//        int red=r.nextInt(255 - 0 + 1)+0;
+//        int green=r.nextInt(255 - 0 + 1)+0;
+//        int blue=r.nextInt(255 - 0 + 1)+0;
+//
+//        GradientDrawable draw = new GradientDrawable();
+//        draw.setShape(GradientDrawable.RECTANGLE);
+//        draw.setColor(Color.rgb(red,green,blue));
+          Color color = new Color();
+          holder.linearLayout.setBackground(Drawable.createFromPath(arrayList.get(position).color));
 
-        Random r = new Random();
-        int red=r.nextInt(255 - 0 + 1)+0;
-        int green=r.nextInt(255 - 0 + 1)+0;
-        int blue=r.nextInt(255 - 0 + 1)+0;
-
-        GradientDrawable draw = new GradientDrawable();
-        draw.setShape(GradientDrawable.RECTANGLE);
-        draw.setColor(Color.rgb(red,green,blue));
-        holder.linearLayout.setBackground(draw);
+          //int color= Color.parseColor("#FFFFFF");
+        //  holder.linearLayout.setBackgroundColor(Integer.parseInt(arrayList.get(position).color));
+      // holder.linearLayout.setBackground(Drawable.createFromPath((arrayList.get(position).color)));
+       // holder.linearLayout.setBackgroundColor(Integer.parseInt(String.valueOf(arrayList.get(position).color)));
 
         holder.text1.setText(arrayList.get(position).titile);
 //        holder.text3.setText(arrayList.get(position).arabic_tittle);
@@ -91,9 +98,10 @@ public class myAdapter3_kalmat extends RecyclerView.Adapter<myAdapter3_kalmat.ho
         //        ImageView imgcontaxt;
         TextView text1,text2;
         LinearLayout linearLayout;
+        CardView cardView;
         public holder(@NonNull View itemView) {
             super(itemView);
-            linearLayout=itemView.findViewById(R.id.dua_one);
+            linearLayout=itemView.findViewById(R.id.dua_one_kalma);
             text1=itemView.findViewById(R.id.kalma_title);
             text2=itemView.findViewById(R.id.sr_no_kalma);
 //            text3=itemView.findViewById(R.id.surah_title_arabic);

@@ -35,9 +35,9 @@ public class Dua_1 extends AppCompatActivity {
         imageView=findViewById(R.id.image);
 
         Random r = new Random();
-        int red=r.nextInt(255 - 0 + 1)+0;
-        int green=r.nextInt(255 - 0 + 1)+0;
-        int blue=r.nextInt(255 - 0 + 1)+0;
+        int red=r.nextInt(205 - 0 + 1)+0;
+        int green=r.nextInt(285 - 0 + 1)+0;
+        int blue=r.nextInt(245 - 0 + 1)+0;
 
         GradientDrawable draw = new GradientDrawable();
         draw.setShape(GradientDrawable.RECTANGLE);

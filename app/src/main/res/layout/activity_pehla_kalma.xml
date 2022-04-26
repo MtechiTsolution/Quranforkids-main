@@ -5,8 +5,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:orientation="vertical"
-    android:id="@+id/linear_kalmat"
+
     tools:context=".pehla_kalma">
     <TextView
       android:layout_width="match_parent"
@@ -16,7 +17,7 @@
       android:gravity="center"
         android:id="@+id/title2"
       android:fontFamily="@font/urdufont"
-        android:textColor="@color/white">
+        android:textColor="@color/black">
   </TextView>
         <ScrollView
             android:layout_width="match_parent"
@@ -25,6 +26,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:id="@+id/linear_kalmat"
                 android:orientation="vertical">
 
                 <androidx.cardview.widget.CardView
