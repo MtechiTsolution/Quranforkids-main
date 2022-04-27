@@ -1,5 +1,7 @@
 package Adopters;
 
+import static java.lang.Integer.parseInt;
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
@@ -11,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
@@ -58,18 +61,15 @@ public class myAdapter3_kalmat extends RecyclerView.Adapter<myAdapter3_kalmat.ho
 //        GradientDrawable draw = new GradientDrawable();
 //        draw.setShape(GradientDrawable.RECTANGLE);
 //        draw.setColor(Color.rgb(red,green,blue));
-          Color color = new Color();
-          holder.linearLayout.setBackground(Drawable.createFromPath(arrayList.get(position).color));
+        // int color=  Integer.parseInt(arrayList.get(position).color);
+       // holder.linearLayout.setBackground();
 
-          //int color= Color.parseColor("#FFFFFF");
-        //  holder.linearLayout.setBackgroundColor(Integer.parseInt(arrayList.get(position).color));
-      // holder.linearLayout.setBackground(Drawable.createFromPath((arrayList.get(position).color)));
-       // holder.linearLayout.setBackgroundColor(Integer.parseInt(String.valueOf(arrayList.get(position).color)));
+      //  holder.linearLayout.setBackgroundColor(Color.DKGRAY);
 
         holder.text1.setText(arrayList.get(position).titile);
 //        holder.text3.setText(arrayList.get(position).arabic_tittle);
         holder.text2.setText(arrayList.get(position).sr_no_surah);
-
+        Toast.makeText(context, (arrayList.get(position).color), Toast.LENGTH_SHORT).show();
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
