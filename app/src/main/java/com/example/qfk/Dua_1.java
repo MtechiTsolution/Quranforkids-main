@@ -50,6 +50,7 @@ public class Dua_1 extends AppCompatActivity {
         Intent intent=getIntent();
         int intValue = intent.getIntExtra("id", 0);
         Dua_model dua_model=alldata.dua_model.get(intValue);
+        title.setBackgroundColor(dua_model.color);
 
         title.setText(dua_model.title2);
         arabic.setText(dua_model.arabic);
