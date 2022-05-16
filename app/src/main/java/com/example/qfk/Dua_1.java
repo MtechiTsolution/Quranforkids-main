@@ -34,22 +34,12 @@ public class Dua_1 extends AppCompatActivity {
         e_trans=findViewById(R.id.e_trans);
         imageView=findViewById(R.id.image);
 
-        Random r = new Random();
-        int red=r.nextInt(205 - 0 + 1)+0;
-        int green=r.nextInt(285 - 0 + 1)+0;
-        int blue=r.nextInt(245 - 0 + 1)+0;
 
-        GradientDrawable draw = new GradientDrawable();
-        draw.setShape(GradientDrawable.RECTANGLE);
-        draw.setColor(Color.rgb(red,green,blue));
-        title.setBackground(draw);
-        arabic.setBackground(draw);
-        u_trans.setBackground(draw);
-        e_trans.setBackground(draw);
 
         Intent intent=getIntent();
         int intValue = intent.getIntExtra("id", 0);
         Dua_model dua_model=alldata.dua_model.get(intValue);
+        title.setBackgroundColor(dua_model.color);
 
         title.setText(dua_model.title2);
         arabic.setText(dua_model.arabic);

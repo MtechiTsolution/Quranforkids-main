@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/surah1_1"
     android:background="@color/white"
     tools:context=".Surah_1">
     <TextView
@@ -57,67 +58,12 @@
 
         </androidx.cardview.widget.CardView>
 
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="3dp"
-
-                app:cardCornerRadius="15dp"
-                app:cardElevation="15dp">
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:background="#C5F3C7"
-
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:textColor="@color/black"
-                        android:textIsSelectable="true"
-                        android:id="@+id/arabic"
-                        android:fontFamily="@font/nabi_regular"
-                        android:paddingRight="10dp"
-                        android:text="(1)   قُلۡ اَعُوۡذُ بِرَبِّ النَّاسِۙ"
-                        android:textSize="25sp">
-
-                    </TextView>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:id="@+id/e_trans"
-                        android:textIsSelectable="true"
-                        android:text="Say: I seek refuge in the Lord of mankind,"
-                        android:textColor="@color/black"
-                        android:textSize="20sp">
-
-                    </TextView>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/urdufont"
-                        android:paddingLeft="10dp"
-                        android:textIsSelectable="true"
-                        android:id="@+id/u_trans"
-                        android:text=" کہو کہ میں لوگوں کے پروردگار کی پناہ مانگتا ہوں"
-                        android:textColor="@color/black"
-                        android:textSize="20sp">
-                    </TextView>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/surah_adapter"
+    >
+</androidx.recyclerview.widget.RecyclerView>
         </LinearLayout>
 
     </ScrollView>
