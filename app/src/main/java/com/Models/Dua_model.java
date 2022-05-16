@@ -11,6 +11,7 @@ public class Dua_model {
     public String u_translation;
     public int image;
    public  int id;
+  // public int color;
 
     public Dua_model( String tItle, String descriptio,
                       String title2,String arabic,String e_transalation,String u_translation,int image ) {
@@ -23,6 +24,7 @@ public class Dua_model {
         this.u_translation=u_translation;
         this.image=image;
         this.id=id;
+       // this.color= color;
     }
 
 }
