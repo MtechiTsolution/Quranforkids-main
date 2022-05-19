@@ -9,201 +9,201 @@ import java.util.Arrays;
 
 public class alldata_surah {
     public static final ArrayList<Aya_Model> surahnas=new ArrayList<>(Arrays.asList(
-            new Aya_Model("1 قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ"," کہو کہ میں لوگوں کے پروردگار کی پناہ مانگتا ہوں","Say, ˹O Prophet,˺ “I seek refuge in the Lord of humankind,"),
-            new Aya_Model("2 مَلِكِ ٱلنَّاسِ","(یعنی) لوگوں کے حقیقی بادشاہ کی","the Master of humankind,"),
-            new Aya_Model("3 إِلَـٰهِ ٱلنَّاسِ"," لوگوں کے معبود برحق کی","the God of humankind,"),
-            new Aya_Model("4 مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ","(شیطان) وسوسہ انداز کی برائی سے جو (خدا کا نام سن کر) پیچھے ہٹ جاتا ہے","from the evil of the lurking whisperer—"),
-            new Aya_Model("5 ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ"," جو لوگوں کے دلوں میں وسوسے ڈالتا ہے","who whispers into the hearts of humankind—"),
-            new Aya_Model("6 مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ"," وہ جنّات میں سے (ہو) یا انسانوں میں سے","from among jinn and humankind.”")
+            new Aya_Model("(1)قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ"," کہو کہ میں لوگوں کے پروردگار کی پناہ مانگتا ہوں","Say, ˹O Prophet,˺ “I seek refuge in the Lord of humankind,"),
+            new Aya_Model("(2)مَلِكِ ٱلنَّاسِ","(یعنی) لوگوں کے حقیقی بادشاہ کی","the Master of humankind,"),
+            new Aya_Model("(3)إِلَـٰهِ ٱلنَّاسِ"," لوگوں کے معبود برحق کی","the God of humankind,"),
+            new Aya_Model("(4)مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ","(شیطان) وسوسہ انداز کی برائی سے جو (خدا کا نام سن کر) پیچھے ہٹ جاتا ہے","from the evil of the lurking whisperer—"),
+            new Aya_Model("(5)ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ"," جو لوگوں کے دلوں میں وسوسے ڈالتا ہے","who whispers into the hearts of humankind—"),
+            new Aya_Model("(6)مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ"," وہ جنّات میں سے (ہو) یا انسانوں میں سے","from among jinn and humankind.”")
     ));
 
     public static final ArrayList<Aya_Model> surahfalak=new ArrayList<>(Arrays.asList(
-            new Aya_Model("1 قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ"," کہو کہ میں صبح کے پروردگار کی پناہ مانگتا ہوں","Say, ˹O Prophet,˺ “I seek refuge in the Lord of the daybreak"),
-            new Aya_Model("2 مِن شَرِّ مَا خَلَقَ","ہر چیز کی بدی سے جو اس نے پیدا کی","from the evil of whatever He has created,"),
-            new Aya_Model("3 وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ"," اور شب تاریکی کی برائی سے جب اس کااندھیرا چھا جائے","and from the evil of the night when it grows dark,"),
-            new Aya_Model("4 وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ"," اور گنڈوں پر (پڑھ پڑھ کر) پھونکنے والیوں کی برائی سے","and from the evil of those ˹witches casting spells by˺ blowing onto knots,"),
-            new Aya_Model("5 وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"," اور حسد کرنے والے کی برائی سے جب حسد کرنے لگے","and from the evil of an envier when they envy.”")
+            new Aya_Model("(1)قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ"," کہو کہ میں صبح کے پروردگار کی پناہ مانگتا ہوں","Say, ˹O Prophet,˺ “I seek refuge in the Lord of the daybreak"),
+            new Aya_Model("(2)مِن شَرِّ مَا خَلَقَ","ہر چیز کی بدی سے جو اس نے پیدا کی","from the evil of whatever He has created,"),
+            new Aya_Model("(3)وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ"," اور شب تاریکی کی برائی سے جب اس کااندھیرا چھا جائے","and from the evil of the night when it grows dark,"),
+            new Aya_Model("(4)وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ"," اور گنڈوں پر (پڑھ پڑھ کر) پھونکنے والیوں کی برائی سے","and from the evil of those ˹witches casting spells by˺ blowing onto knots,"),
+            new Aya_Model("(5)وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"," اور حسد کرنے والے کی برائی سے جب حسد کرنے لگے","and from the evil of an envier when they envy.”")
             ));
 
     public static final ArrayList<Aya_Model> surahikhlas=new ArrayList<>(Arrays.asList(
-            new Aya_Model("1 قُلْ هُوَ ٱللَّهُ أَحَدٌ"," کہو کہ وہ (ذات پاک جس کا نام) الله (ہے) ایک ہے","Say, ˹O Prophet,˺ “He is Allah—One ˹and Indivisible˺;"),
-            new Aya_Model("2 ٱللَّهُ ٱلصَّمَدُ"," معبود برحق جو بےنیاز ہے","Allah—the Sustainer ˹needed by all˺."),
-            new Aya_Model("3 لَمْ يَلِدْ وَلَمْ يُولَدْ"," نہ کسی کا باپ ہے اور نہ کسی کا بیٹا","He has never had offspring, nor was He born."),
-            new Aya_Model("4 وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ"," اور کوئی اس کا ہمسر نہیں","And there is none comparable to Him.”")
+            new Aya_Model("(1)قُلْ هُوَ ٱللَّهُ أَحَدٌ"," کہو کہ وہ (ذات پاک جس کا نام) الله (ہے) ایک ہے","Say, ˹O Prophet,˺ “He is Allah—One ˹and Indivisible˺;"),
+            new Aya_Model("(2)ٱللَّهُ ٱلصَّمَدُ"," معبود برحق جو بےنیاز ہے","Allah—the Sustainer ˹needed by all˺."),
+            new Aya_Model("(3)لَمْ يَلِدْ وَلَمْ يُولَدْ"," نہ کسی کا باپ ہے اور نہ کسی کا بیٹا","He has never had offspring, nor was He born."),
+            new Aya_Model("(4)وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ"," اور کوئی اس کا ہمسر نہیں","And there is none comparable to Him.”")
             ));
 
     public static final ArrayList<Aya_Model> surahmasad=new ArrayList<>(Arrays.asList(
-            new Aya_Model("1 تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ","ابولہب کے ہاتھ ٹوٹیں اور وہ ہلاک ہو","May the hands of Abu Lahab perish, and he ˹himself˺ perish!"),
-            new Aya_Model("2 مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ","نہ تو اس کا مال ہی اس کے کچھ کام آیا اور نہ وہ جو اس نے کمایا","Neither his wealth nor ˹worldly˺ gains will benefit him."),
-            new Aya_Model("3 سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ","وہ جلد بھڑکتی ہوئی آگ میں داخل ہو گا","He will burn in a flaming Fire,"),
-            new Aya_Model("4 وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ","اور اس کی جورو بھی جو ایندھن سر پر اٹھائے پھرتی ہے","and ˹so will˺ his wife, the carrier of ˹thorny˺ kindling,"),
-            new Aya_Model("5 فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ","اس کے گلے میں مونج کی رسّی ہو گی","around her neck will be a rope of palm-fibre.")
+            new Aya_Model("(1)تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ","ابولہب کے ہاتھ ٹوٹیں اور وہ ہلاک ہو","May the hands of Abu Lahab perish, and he ˹himself˺ perish!"),
+            new Aya_Model("(2)مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ","نہ تو اس کا مال ہی اس کے کچھ کام آیا اور نہ وہ جو اس نے کمایا","Neither his wealth nor ˹worldly˺ gains will benefit him."),
+            new Aya_Model("(3)سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ","وہ جلد بھڑکتی ہوئی آگ میں داخل ہو گا","He will burn in a flaming Fire,"),
+            new Aya_Model("(4)وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ","اور اس کی جورو بھی جو ایندھن سر پر اٹھائے پھرتی ہے","and ˹so will˺ his wife, the carrier of ˹thorny˺ kindling,"),
+            new Aya_Model("(5)فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ","اس کے گلے میں مونج کی رسّی ہو گی","around her neck will be a rope of palm-fibre.")
             ));
 
     public static final ArrayList<Aya_Model> surahnasr=new ArrayList<>(Arrays.asList(
-            new Aya_Model("1 إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ","جب خدا کی مدد آ پہنچی اور فتح (حاصل ہو گئی)","When Allah’s ˹ultimate˺ help comes and the victory ˹over Mecca is achieved˺,"),
-            new Aya_Model("2 وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا"," اور تم نے دیکھ لیا کہ لوگ غول کے غول خدا کے دین میں داخل ہو رہے ہیں","and you ˹O Prophet˺ see the people embracing Allah’s Way in crowds,"),
-            new Aya_Model("3 فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا"," تو اپنے پروردگار کی تعریف کے ساتھ تسبیح کرو اور اس سے مغفرت مانگو، بے شک وہ معاف کرنے والا ہے","then glorify the praises of your Lord and seek His forgiveness, for certainly He is ever Accepting of Repentance.")
+            new Aya_Model("(1)إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ","جب خدا کی مدد آ پہنچی اور فتح (حاصل ہو گئی)","When Allah’s ˹ultimate˺ help comes and the victory ˹over Mecca is achieved˺,"),
+            new Aya_Model("(2)وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا"," اور تم نے دیکھ لیا کہ لوگ غول کے غول خدا کے دین میں داخل ہو رہے ہیں","and you ˹O Prophet˺ see the people embracing Allah’s Way in crowds,"),
+            new Aya_Model("(3)فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا"," تو اپنے پروردگار کی تعریف کے ساتھ تسبیح کرو اور اس سے مغفرت مانگو، بے شک وہ معاف کرنے والا ہے","then glorify the praises of your Lord and seek His forgiveness, for certainly He is ever Accepting of Repentance.")
             ));
 
     public static final ArrayList<Aya_Model> surahkafirun=new ArrayList<>(Arrays.asList(
-            new Aya_Model("1 قُلْ يَـٰٓأَيُّهَا ٱلْكَـٰفِرُونَ"," (اے پیغمبر ان منکران اسلام سے) کہہ دو کہ اے کافرو!","Say, ˹O Prophet,˺ “O you disbelievers!"),
-            new Aya_Model("2 لَآ أَعْبُدُ مَا تَعْبُدُونَ"," جن (بتوں) کو تم پوچتے ہو ان کو میں نہیں پوجتا","I do not worship what you worship,"),
-            new Aya_Model("3 وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ"," اور جس (خدا) کی میں عبادت کرتا ہوں اس کی تم عبادت نہیں کرتے","nor do you worship what I worship."),
-            new Aya_Model("4 وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ"," اور( میں پھر کہتا ہوں کہ) جن کی تم پرستش کرتے ہوں ان کی میں پرستش کرنے والا نہیں ہوں","I will never worship what you worship,"),
-            new Aya_Model("5 وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ"," اور نہ تم اس کی بندگی کرنے والے (معلوم ہوتے) ہو جس کی میں بندگی کرتا ہوں","nor will you ever worship what I worship."),
-            new Aya_Model("6 لَكُمْ دِينُكُمْ وَلِىَ دِينِ","تم اپنے دین پر میں اپنے دین پر","You have your way, and I have my Way.”")
+            new Aya_Model("(1)قُلْ يَـٰٓأَيُّهَا ٱلْكَـٰفِرُونَ"," (اے پیغمبر ان منکران اسلام سے) کہہ دو کہ اے کافرو!","Say, ˹O Prophet,˺ “O you disbelievers!"),
+            new Aya_Model("(2)لَآ أَعْبُدُ مَا تَعْبُدُونَ"," جن (بتوں) کو تم پوچتے ہو ان کو میں نہیں پوجتا","I do not worship what you worship,"),
+            new Aya_Model("(3)وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ"," اور جس (خدا) کی میں عبادت کرتا ہوں اس کی تم عبادت نہیں کرتے","nor do you worship what I worship."),
+            new Aya_Model("(4)وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ"," اور( میں پھر کہتا ہوں کہ) جن کی تم پرستش کرتے ہوں ان کی میں پرستش کرنے والا نہیں ہوں","I will never worship what you worship,"),
+            new Aya_Model("(5)وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ"," اور نہ تم اس کی بندگی کرنے والے (معلوم ہوتے) ہو جس کی میں بندگی کرتا ہوں","nor will you ever worship what I worship."),
+            new Aya_Model("(6)لَكُمْ دِينُكُمْ وَلِىَ دِينِ","تم اپنے دین پر میں اپنے دین پر","You have your way, and I have my Way.”")
             ));
 
     public static final ArrayList<Aya_Model> surahkosar=new ArrayList<>(Arrays.asList(
-            new Aya_Model("1 إِنَّآ أَعْطَيْنَـٰكَ ٱلْكَوْثَرَ","(اے محمدﷺ) ہم نے تم کو کوثر عطا فرمائی ہے","Indeed, We have granted you ˹O Prophet˺ abundant goodness."),
-            new Aya_Model("2 فَصَلِّ لِرَبِّكَ وَٱنْحَرْ","تو اپنے پروردگار کے لیے نماز پڑھا کرو اور قربانی دیا کرو","So pray and sacrifice to your Lord ˹alone˺."),
-            new Aya_Model("3 إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ"," کچھ شک نہیں کہ تمہارا دشمن ہی بےاولاد رہے گا","Only the one who hates you is truly cut off ˹from any goodness˺.")
+            new Aya_Model("(1)إِنَّآ أَعْطَيْنَـٰكَ ٱلْكَوْثَرَ","(اے محمدﷺ) ہم نے تم کو کوثر عطا فرمائی ہے","Indeed, We have granted you ˹O Prophet˺ abundant goodness."),
+            new Aya_Model("(2)فَصَلِّ لِرَبِّكَ وَٱنْحَرْ","تو اپنے پروردگار کے لیے نماز پڑھا کرو اور قربانی دیا کرو","So pray and sacrifice to your Lord ˹alone˺."),
+            new Aya_Model("(3)إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ"," کچھ شک نہیں کہ تمہارا دشمن ہی بےاولاد رہے گا","Only the one who hates you is truly cut off ˹from any goodness˺.")
             ));
 
     public static final ArrayList<Aya_Model> surahmaoon=new ArrayList<>(Arrays.asList(
-            new Aya_Model("1 أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ","بھلا تم نے اس شخص کو دیکھا جو (روزِ) جزا کو جھٹلاتا ہے؟","Have you seen the one who denies the ˹final˺ Judgment?"),
-            new Aya_Model("2 فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ","یہ وہی (بدبخت) ہے، جو یتیم کو دھکے دیتا ہے","That is the one who repulses the orphan,"),
-            new Aya_Model("3 وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ"," اور فقیر کو کھانا کھلانے کے لیے( لوگوں کو) ترغیب نہیں دیتا","and does not encourage the feeding of the poor."),
-            new Aya_Model("4 فَوَيْلٌۭ لِّلْمُصَلِّينَ"," تو ایسے نمازیوں کی خرابی ہے","So woe to those ˹hypocrites˺ who pray"),
-            new Aya_Model("5 ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ"," جو نماز کی طرف سے غافل رہتے ہیں","yet are unmindful of their prayers;"),
-            new Aya_Model("6 ٱلَّذِينَ هُمْ يُرَآءُونَ","جو ریا کاری کرتے ہیں","those who ˹only˺ show off,"),
-            new Aya_Model("7 وَيَمْنَعُونَ ٱلْمَاعُونَ"," اور برتنے کی چیزیں عاریتہً نہیں دیتے","and refuse to give ˹even the simplest˺ aid.")
+            new Aya_Model("(1)أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ","بھلا تم نے اس شخص کو دیکھا جو (روزِ) جزا کو جھٹلاتا ہے؟","Have you seen the one who denies the ˹final˺ Judgment?"),
+            new Aya_Model("(2)فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ","یہ وہی (بدبخت) ہے، جو یتیم کو دھکے دیتا ہے","That is the one who repulses the orphan,"),
+            new Aya_Model("(3)وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ"," اور فقیر کو کھانا کھلانے کے لیے( لوگوں کو) ترغیب نہیں دیتا","and does not encourage the feeding of the poor."),
+            new Aya_Model("(4)فَوَيْلٌۭ لِّلْمُصَلِّينَ"," تو ایسے نمازیوں کی خرابی ہے","So woe to those ˹hypocrites˺ who pray"),
+            new Aya_Model("(5)ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ"," جو نماز کی طرف سے غافل رہتے ہیں","yet are unmindful of their prayers;"),
+            new Aya_Model("(6)ٱلَّذِينَ هُمْ يُرَآءُونَ","جو ریا کاری کرتے ہیں","those who ˹only˺ show off,"),
+            new Aya_Model("(7)وَيَمْنَعُونَ ٱلْمَاعُونَ"," اور برتنے کی چیزیں عاریتہً نہیں دیتے","and refuse to give ˹even the simplest˺ aid.")
             ));
 
     public static final ArrayList<Aya_Model> surahquraish=new ArrayList<>(Arrays.asList(
-            new Aya_Model("1 لِإِيلَـٰفِ قُرَيْشٍ","قریش کے مانوس کرنے کے سبب","˹At least˺ for ˹the favour of˺ making Quraysh habitually secure—"),
-            new Aya_Model("2 إِۦلَـٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ"," (یعنی) ان کو جاڑے اور گرمی کے سفر سے مانوس کرنے کے سبب","secure in their trading caravan ˹to Yemen˺ in the winter and ˹Syria˺ in the summer—"),
-            new Aya_Model("3 فَلْيَعْبُدُوا۟ رَبَّ هَـٰذَا ٱلْبَيْتِ"," لوگوں کو چاہیئے کہ (اس نعمت کے شکر میں) اس گھر کے مالک کی عبادت کریں","let them worship the Lord of this ˹Sacred˺ House,"),
-            new Aya_Model("4 ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ","جس نے ان کو بھوک میں کھانا کھلایا اور خوف سے امن بخشا","Who has fed them against hunger and made them secure against fear.")
+            new Aya_Model("(1)لِإِيلَـٰفِ قُرَيْشٍ","قریش کے مانوس کرنے کے سبب","˹At least˺ for ˹the favour of˺ making Quraysh habitually secure—"),
+            new Aya_Model("(2)إِۦلَـٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ"," (یعنی) ان کو جاڑے اور گرمی کے سفر سے مانوس کرنے کے سبب","secure in their trading caravan ˹to Yemen˺ in the winter and ˹Syria˺ in the summer—"),
+            new Aya_Model("(3)فَلْيَعْبُدُوا۟ رَبَّ هَـٰذَا ٱلْبَيْتِ"," لوگوں کو چاہیئے کہ (اس نعمت کے شکر میں) اس گھر کے مالک کی عبادت کریں","let them worship the Lord of this ˹Sacred˺ House,"),
+            new Aya_Model("(4)ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ","جس نے ان کو بھوک میں کھانا کھلایا اور خوف سے امن بخشا","Who has fed them against hunger and made them secure against fear.")
             ));
 
     public static final ArrayList<Aya_Model> surahfil=new ArrayList<>(Arrays.asList(
-            new Aya_Model("1 أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ"," کیا تم نے نہیں دیکھا کہ تمہارے پروردگار نے ہاتھی والوں کے ساتھ کیا کیا","Have you not seen ˹O Prophet˺ how your Lord dealt with the Army of the Elephant?"),
-            new Aya_Model("2 أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ"," کیا ان کا داؤں غلط نہیں کیا؟ (گیا)","Did He not frustrate their scheme?"),
-            new Aya_Model("3 وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ","اور ان پر جھلڑ کے جھلڑ جانور بھیجے","For He sent against them flocks of birds,"),
-            new Aya_Model("4 تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ","جو ان پر کھنگر کی پتھریاں پھینکتے تھے","that pelted them with stones of baked clay,"),
-            new Aya_Model("5 فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ"," تو ان کو ایسا کر دیا جیسے کھایا ہوا بھس","leaving them like chewed up straw.")
+            new Aya_Model("(1)أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ"," کیا تم نے نہیں دیکھا کہ تمہارے پروردگار نے ہاتھی والوں کے ساتھ کیا کیا","Have you not seen ˹O Prophet˺ how your Lord dealt with the Army of the Elephant?"),
+            new Aya_Model("(2)أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ"," کیا ان کا داؤں غلط نہیں کیا؟ (گیا)","Did He not frustrate their scheme?"),
+            new Aya_Model("(3)وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ","اور ان پر جھلڑ کے جھلڑ جانور بھیجے","For He sent against them flocks of birds,"),
+            new Aya_Model("(4)تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ","جو ان پر کھنگر کی پتھریاں پھینکتے تھے","that pelted them with stones of baked clay,"),
+            new Aya_Model("(5)فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ"," تو ان کو ایسا کر دیا جیسے کھایا ہوا بھس","leaving them like chewed up straw.")
             ));
 
     public static final ArrayList<Aya_Model> surahhamza=new ArrayList<>(Arrays.asList(
-            new Aya_Model("1 وَيْلٌۭ لِّكُلِّ هُمَزَةٍۢ لُّمَزَةٍ","ہر طعن آمیز اشارتیں کرنے والے چغل خور کی خرابی ہے","Woe to every backbiter, slanderer,"),
-            new Aya_Model("2 ٱلَّذِى جَمَعَ مَالًۭا وَعَدَّدَهُۥ","جو مال جمع کرتا اور اس کو گن گن کر رکھتا ہے","who amasses wealth ˹greedily˺ and counts it ˹repeatedly˺,"),
-            new Aya_Model("3 يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ"," (اور) خیال کرتا ہے کہ اس کا مال اس کی ہمیشہ کی زندگی کا موجب ہو گا","thinking that their wealth will make them immortal!"),
-            new Aya_Model("4 كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ"," ہر گز نہیں وہ ضرور حطمہ میں ڈالا جائے گا","Not at all! Such a person will certainly be tossed into the Crusher."),
-            new Aya_Model("5 وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ"," اور تم کیا سمجھے حطمہ کیا ہے؟","Not at all! Such a person will certainly be tossed into the Crusher."),
-            new Aya_Model("6 نَارُ ٱللَّهِ ٱلْمُوقَدَةُ","وہ خدا کی بھڑکائی ہوئی آگ ہے","˹It is˺ Allah’s kindled Fire,"),
-            new Aya_Model("7 ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ","جو دلوں پر جا لپٹے گی","which rages over the hearts."),
-            new Aya_Model("8 إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌۭ","(اور) وہ اس میں بند کر دیئے جائیں گے","It will be sealed over them,"),
-            new Aya_Model("9 فِى عَمَدٍۢ مُّمَدَّدَةٍۭ","(یعنی آگ کے) لمبے لمبے ستونوں میں","˹tightly secured˺ with long braces.")
+            new Aya_Model("(1)وَيْلٌۭ لِّكُلِّ هُمَزَةٍۢ لُّمَزَةٍ","ہر طعن آمیز اشارتیں کرنے والے چغل خور کی خرابی ہے","Woe to every backbiter, slanderer,"),
+            new Aya_Model("(2)ٱلَّذِى جَمَعَ مَالًۭا وَعَدَّدَهُۥ","جو مال جمع کرتا اور اس کو گن گن کر رکھتا ہے","who amasses wealth ˹greedily˺ and counts it ˹repeatedly˺,"),
+            new Aya_Model("(3)يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ"," (اور) خیال کرتا ہے کہ اس کا مال اس کی ہمیشہ کی زندگی کا موجب ہو گا","thinking that their wealth will make them immortal!"),
+            new Aya_Model("(4)كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ"," ہر گز نہیں وہ ضرور حطمہ میں ڈالا جائے گا","Not at all! Such a person will certainly be tossed into the Crusher."),
+            new Aya_Model("(5)وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ"," اور تم کیا سمجھے حطمہ کیا ہے؟","Not at all! Such a person will certainly be tossed into the Crusher."),
+            new Aya_Model("(6)نَارُ ٱللَّهِ ٱلْمُوقَدَةُ","وہ خدا کی بھڑکائی ہوئی آگ ہے","˹It is˺ Allah’s kindled Fire,"),
+            new Aya_Model("(7)ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ","جو دلوں پر جا لپٹے گی","which rages over the hearts."),
+            new Aya_Model("(8)إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌۭ","(اور) وہ اس میں بند کر دیئے جائیں گے","It will be sealed over them,"),
+            new Aya_Model("(9)فِى عَمَدٍۢ مُّمَدَّدَةٍۭ","(یعنی آگ کے) لمبے لمبے ستونوں میں","˹tightly secured˺ with long braces.")
             ));
 
     public static final ArrayList<Aya_Model> surahasar=new ArrayList<>(Arrays.asList(
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","","")
+            new Aya_Model("(1)وَٱلْعَصْرِ","عصر کی قس","By the ˹passage of˺ time!"),
+            new Aya_Model("(2)إِنَّ ٱلْإِنسَـٰنَ لَفِى خُسْرٍ","کہ انسان نقصان میں ہے","Surely humanity is in ˹grave˺ loss,"),
+            new Aya_Model("(3)إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ","مگر وہ لوگ جو ایمان لائے اور نیک عمل کرتے رہے اور آپس میں حق (بات) کی تلقین اور صبر کی تاکید کرتے رہے","except those who have faith, do good, and urge each other to the truth, and urge each other to perseverance.")
             ));
 
     public static final ArrayList<Aya_Model> surahtakasur=new ArrayList<>(Arrays.asList(
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","","")
+            new Aya_Model("(1)أَلْهَىٰكُمُ ٱلتَّكَاثُرُ","(لوگو) تم کو(مال کی) بہت سی طلب نے غافل کر دیا","Competition for more ˹gains˺ diverts you ˹from Allah˺,"),
+            new Aya_Model("(2)حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ","یہاں تک کہ تم نے قبریں جا دیکھیں","until you end up in ˹your˺ graves."),
+            new Aya_Model("(3)كَلَّا سَوْفَ تَعْلَمُونَ"," دیکھو تمہیں عنقریب معلوم ہو جائے گا","But no! You will soon come to know."),
+            new Aya_Model("(4)ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ","پھر دیکھو تمہیں عنقریب معلوم ہو جائے گا","Again, no! You will soon come to know."),
+            new Aya_Model("(5)كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ","دیکھو اگر تم جانتے (یعنی) علم الیقین (رکھتے تو غفلت نہ کرتے)","Indeed, if you were to know ˹your fate˺ with certainty, ˹you would have acted differently˺."),
+            new Aya_Model("(6)لَتَرَوُنَّ ٱلْجَحِيمَ","تم ضرور دوزخ کو دیکھو گے","˹But˺ you will surely see the Hellfire."),
+            new Aya_Model("(7)ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ","پھر اس کو (ایسا) دیکھو گے (کہ) عین الیقین (آ جائے گا )","Again, you will surely see it with the eye of certainty."),
+            new Aya_Model("(8)ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ","پھر اس روز تم سے (شکر) نعمت کے بارے میں پرسش ہو گی","Then, on that Day, you will definitely be questioned about ˹your worldly˺ pleasures.")
             ));
 
     public static final ArrayList<Aya_Model> surahqariah=new ArrayList<>(Arrays.asList(
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","","")
+            new Aya_Model("(1)ٱلْقَارِعَةُ","کھڑ کھڑانے والی","The Striking Disaster!"),
+            new Aya_Model("(2)مَا ٱلْقَارِعَةُ"," کھڑ کھڑانے والی کیا ہے؟","What is the Striking Disaster?"),
+            new Aya_Model("(3)وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ","اور تم کیا جانوں کھڑ کھڑانے والی کیا ہے؟","And what will make you realize what the Striking Disaster is?"),
+            new Aya_Model("(4)يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ","(وہ قیامت ہے) جس دن لوگ ایسے ہوں گے جیسے بکھرے ہوئے پتنگے","˹It is˺ the Day people will be like scattered moths,"),
+            new Aya_Model("(5)وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ"," اور پہاڑ ایسے ہو جائیں گے جیسے دھنکی ہوئی رنگ برنگ کی اون","and the mountains will be like carded wool."),
+            new Aya_Model("(6)فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ"," تو جس کے (اعمال کے) وزن بھاری نکلیں گے","So as for those whose scale is heavy ˹with good deeds˺,"),
+            new Aya_Model("(7)فَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ","وہ دل پسند عیش میں ہو گا","they will be in a life of bliss."),
+            new Aya_Model("(8)وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ"," اور جس کے وزن ہلکے نکلیں گے","And as for those whose scale is light,"),
+            new Aya_Model("(9)فَأُمُّهُۥ هَاوِيَةٌۭ"," اس کا مرجع ہاویہ ہے","their home will be the abyss."),
+            new Aya_Model("(10)وَمَآ أَدْرَىٰكَ مَا هِيَهْ","اور تم کیا سمجھے کہ ہاویہ کیا چیز ہے؟","And what will make you realize what that is?"),
+            new Aya_Model("(11)نَارٌ حَامِيَةٌۢ","دہکتی ہوئی آگ ہے","˹It is˺ a scorching Fire.")
             ));
 
     public static final ArrayList<Aya_Model> surahadiyat=new ArrayList<>(Arrays.asList(
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","","")
+            new Aya_Model("(1)وَٱلْعَـٰدِيَـٰتِ ضَبْحًۭا"," ان سرپٹ دوڑنے والے گھوڑوں کی قسم جو ہانپ اٹھتےہیں","’ By the galloping, panting horses,"),
+            new Aya_Model("(2)فَٱلْمُورِيَـٰتِ قَدْحًۭا","پھر (پتھروں پر نعل) مار کر آگ نکالتے ہیں","striking sparks of fire ˹with their hoofs˺,"),
+            new Aya_Model("(3)فَٱلْمُغِيرَٰتِ صُبْحًۭا"," پھر صبح کو چھاپہ مارتے ہیں","launching raids at dawn,"),
+            new Aya_Model("(4)فَأَثَرْنَ بِهِۦ نَقْعًۭا","پھر اس میں گرد اٹھاتے ہیں","stirring up ˹clouds of˺ dust,"),
+            new Aya_Model("(5)فَوَسَطْنَ بِهِۦ جَمْعًا","پھر اس وقت دشمن کی فوج میں جا گھستے ہیں","and penetrating into the heart of enemy lines!"),
+            new Aya_Model("(6)إِنَّ ٱلْإِنسَـٰنَ لِرَبِّهِۦ لَكَنُودٌۭ","کہ انسان اپنے پروردگار کا احسان ناشناس (اور ناشکرا) ہے","Surely humankind is ungrateful to their Lord—"),
+            new Aya_Model("(7)وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ","اور وہ اس سے آگاہ بھی ہے","and they certainly attest to this—"),
+            new Aya_Model("(8)وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ","وہ تو مال سے سخت محبت کرنے والا ہے","and they are truly extreme in their love of ˹worldly˺ gains."),
+            new Aya_Model("(9)أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ"," کیا وہ اس وقت کو نہیں جانتا کہ جو( مردے) قبروں میں ہیں وہ باہر نکال لیے جائیں گے","Do they not know that when the contents of the graves will be spilled out,"),
+            new Aya_Model("(10)وَحُصِّلَ مَا فِى ٱلصُّدُورِ","اور جو (بھید) دلوں میں ہیں وہ ظاہر کر دیئے جائیں گے","and the secrets of the hearts will be laid bare—"),
+            new Aya_Model("(11)إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍۢ لَّخَبِيرٌۢ","بےشک ان کا پروردگار اس روز ان سے خوب واقف ہوگا","surely their Lord is All-Aware of them on that Day.")
             ));
 
     public static final ArrayList<Aya_Model> surahzalzalah=new ArrayList<>(Arrays.asList(
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","","")
+            new Aya_Model("(1)إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا","جب زمین بھونچال سے ہلا دی جائے گی","When the earth is shaken ˹in˺ its ultimate quaking,"),
+            new Aya_Model("(2)وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا","اور زمین اپنے (اندر) کے بوجھ نکال ڈالے گی","and when the earth throws out ˹all˺ its contents,"),
+            new Aya_Model("(3)وَقَالَ ٱلْإِنسَـٰنُ مَا لَهَا"," اور انسان کہے گا کہ اس کو کیا ہوا ہے؟","and humanity cries, “What is wrong with it?”—"),
+            new Aya_Model("(4)يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا","اس روز وہ اپنے حالات بیان کردے گی","on that Day the earth will recount everything,"),
+            new Aya_Model("(5)بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا"," کیونکہ تمہارے پروردگار نے اس کو حکم بھیجا (ہوگا )","having been inspired by your Lord ˹to do so˺."),
+            new Aya_Model("(6)يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَـٰلَهُمْ","اس دن لوگ گروہ گروہ ہو کر آئیں گے تاکہ ان کو ان کے اعمال دکھا دیئے جائیں","On that Day people will proceed in separate groups to be shown ˹the consequences of˺ their deeds."),
+            new Aya_Model("(7)فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ"," تو جس نے ذرہ بھر نیکی کی ہو گی وہ اس کو دیکھ لے گا","So whoever does an atom’s weight of good will see it."),
+            new Aya_Model("(8)وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ"," اور جس نے ذرہ بھر برائی کی ہوگی وہ اسے دیکھ لے گا","And whoever does an atom’s weight of evil will see it.")
             ));
 
     public static final ArrayList<Aya_Model> surahbynah=new ArrayList<>(Arrays.asList(
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","","")
+            new Aya_Model("(1)لَمْ يَكُنِ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَـٰبِ وَٱلْمُشْرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ ٱلْبَيِّنَةُ"," جو لوگ کافر ہیں (یعنی) اہل کتاب اور مشرک وہ (کفر سے) باز رہنے والے نہ تھے جب تک ان کے پاس کھلی دلیل (نہ) آتی","The disbelievers from the People of the Book and the polytheists were not going to desist ˹from disbelief˺ until the clear proof came to them:"),
+            new Aya_Model("(2)رَسُولٌۭ مِّنَ ٱللَّهِ يَتْلُوا۟ صُحُفًۭا مُّطَهَّرَةًۭ"," (یعنی) خدا کے پیغمبر جو پاک اوراق پڑھتے ہیں","a messenger from Allah, reciting scrolls of ˹utmost˺ purity,"),
+            new Aya_Model("(3)فِيهَا كُتُبٌۭ قَيِّمَةٌۭ","جن میں( مستحکم) آیتیں لکھی ہوئی ہیں","containing upright commandments."),
+            new Aya_Model("(4)وَمَا تَفَرَّقَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَةُ"," اور اہل کتاب جو متفرق (و مختلف) ہوئے ہیں تو دلیل واضح آنے کے بعد( ہوئے ہیں)","It was not until this clear proof came to the People of the Book that they became divided ˹about his prophethood˺—"),
+            new Aya_Model("(5)وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ","اور ان کو حکم تو یہی ہوا تھا کہ اخلاص عمل کے ساتھ خدا کی عبادت کریں (اور) یکسو ہو کراورنماز پڑھیں اور زکوٰة دیں اور یہی سچا دین ہے","even though they were only commanded to worship Allah ˹alone˺ with sincere devotion to Him in all uprightness, establish prayer, and pay alms-tax. That is the upright Way."),
+            new Aya_Model("(6)إِنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَـٰبِ وَٱلْمُشْرِكِينَ فِى نَارِ جَهَنَّمَ خَـٰلِدِينَ فِيهَآ ۚ أُو۟لَـٰٓئِكَ هُمْ شَرُّ ٱلْبَرِيَّةِ","جو لوگ کافر ہیں (یعنی) اہل کتاب اور مشرک وہ دوزخ کی آگ میں پڑیں گے (اور) ہمیشہ اس میں رہیں گے۔ یہ لوگ سب مخلوق سے بدتر ہیں","Indeed, those who disbelieve from the People of the Book and the polytheists will be in the Fire of Hell, to stay there forever. They are the worst of ˹all˺ beings."),
+            new Aya_Model("(7)إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ أُو۟لَـٰٓئِكَ هُمْ خَيْرُ ٱلْبَرِيَّةِ","(اور) جو لوگ ایمان لائے اور نیک عمل کرتے رہے وہ تمام خلقت سے بہتر ہیں","Indeed, those who believe and do good—they are the best of ˹all˺ beings."),
+            new Aya_Model("(8)جَزَآؤُهُمْ عِندَ رَبِّهِمْ جَنَّـٰتُ عَدْنٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًۭا ۖ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ ۚ ذَٰلِكَ لِمَنْ خَشِىَ رَبَّهُۥ","ان کا صلہ ان کے پروردگار کے ہاں ہمیشہ رہنے کے باغ ہیں جن کے نیچے نہریں بہہ رہی ہیں ابدالاباد ان میں رہیں گے۔ خدا ان سے خوش اور وہ اس سے خوش۔ یہ (صلہ) اس کے لیے ہے جو اپنے پروردگار سے ڈرتا رہا","Their reward with their Lord will be Gardens of Eternity, under which rivers flow, to stay there for ever and ever. Allah is pleased with them and they are pleased with Him. This is ˹only˺ for those in awe of their Lord.")
             ));
 
     public static final ArrayList<Aya_Model> surahqadr=new ArrayList<>(Arrays.asList(
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","","")
+            new Aya_Model("(1)إِنَّآ أَنزَلْنَـٰهُ فِى لَيْلَةِ ٱلْقَدْرِ"," ہم نے اس( قرآن) کو شب قدر میں نازل (کرنا شروع) کیا","Indeed, ˹it is˺ We ˹Who˺ sent this ˹Quran˺ down on the Night of Glory."),
+            new Aya_Model("(2)وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ","اور تمہیں کیا معلوم کہ شب قدر کیا ہے؟","And what will make you realize what the Night of Glory is?"),
+            new Aya_Model("(3)لَيْلَةُ ٱلْقَدْرِ خَيْرٌۭ مِّنْ أَلْفِ شَهْرٍۢ"," شب قدر ہزار مہینے سے بہتر ہے","The Night of Glory is better than a thousand months."),
+            new Aya_Model("(4)تَنَزَّلُ ٱلْمَلَـٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ"," اس میں روح (الامین) اور فرشتے ہر کام کے (انتظام کے) لیے اپنے پروردگار کے حکم سے اترتے ہیں","That night the angels and the ˹holy˺ spirit1 descend, by the permission of their Lord, for every ˹decreed˺ matter."),
+            new Aya_Model("(5)سَلَـٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ"," یہ( رات) طلوع صبح تک (امان اور) سلامتی ہے","It is all peace until the break of dawn.")
             ));
 
     public static final ArrayList<Aya_Model> surahalaq=new ArrayList<>(Arrays.asList(
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","","")
+            new Aya_Model("(1)ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ"," (اے محمدﷺ) اپنے پروردگار کا نام لے کر پڑھو جس نے (عالم کو) پیدا کیا","Read, ˹O Prophet,˺ in the Name of your Lord Who created—"),
+            new Aya_Model("(2)خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ"," جس نے انسان کو خون کی پھٹکی سے بنایا","created humans from a clinging clot."),
+            new Aya_Model("(3)ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ"," پڑھو اور تمہارا پروردگار بڑا کریم ہے","Read! And your Lord is the Most Generous,"),
+            new Aya_Model("(4)ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ","جس نے قلم کے ذریعے سے علم سکھایا","Who taught by the pen—"),
+            new Aya_Model("(5)عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ"," اور انسان کو وہ باتیں سکھائیں جس کا اس کو علم نہ تھا","taught humanity what they knew not."),
+            new Aya_Model("(6)كَلَّآ إِنَّ ٱلْإِنسَـٰنَ لَيَطْغَىٰٓ"," مگر انسان سرکش ہو جاتا ہے","Most certainly, one exceeds all bounds"),
+            new Aya_Model("(7)أَن رَّءَاهُ ٱسْتَغْنَىٰٓ"," جب کہ اپنے تیئں غنی دیکھتا ہے","once they think they are self-sufficient."),
+            new Aya_Model("(8)إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ"," کچھ شک نہیں کہ (اس کو) تمہارے پروردگار ہی کی طرف لوٹ کر جانا ہے","˹But˺ surely to your Lord is the return ˹of all˺."),
+            new Aya_Model("(9)أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ","بھلا تم نے اس شخص کو دیکھا جو منع کرتا ہے","Have you seen the man who prevents"),
+            new Aya_Model("(10)عَبْدًا إِذَا صَلَّىٰٓ"," (یعنی) ایک بندے کو جب وہ نماز پڑھنے لگتا ہے","a servant ˹of Ours˺ from praying?"),
+            new Aya_Model("(11)أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ"," بھلا دیکھو تو اگر یہ راہِ راست پر ہو","What if this ˹servant˺ is ˹rightly˺ guided,"),
+            new Aya_Model("(12)أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ"," یا پرہیز گاری کا حکم کرے (تو منع کرنا کیسا)","or encourages righteousness?"),
+            new Aya_Model("(13)أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ"," اور دیکھو تو اگر اس نے دین حق کو جھٹلایا اور اس سے منہ موڑا (تو کیا ہوا)","What if that ˹man˺ persists in denial and turns away?"),
+            new Aya_Model("(14)أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ","کیااس کو معلوم نہیں کہ خدا دیکھ رہا ہے","Does he not know that Allah sees ˹all˺?"),
+            new Aya_Model("(15)كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ","دیکھو اگر وہ باز نہ آئے گا تو ہم (اس کی) پیشانی کے بال پکڑ گھسیٹیں گے","But no! If he does not desist, We will certainly drag him by the forelock—"),
+            new Aya_Model("(16)نَاصِيَةٍۢ كَـٰذِبَةٍ خَاطِئَةٍۢ"," یعنی اس جھوٹے خطاکار کی پیشانی کے بال","a lying, sinful forelock."),
+            new Aya_Model("(17)فَلْيَدْعُ نَادِيَهُۥ"," تو وہ اپنے یاروں کی مجلس کو بلالے","So let him call his associates."),
+            new Aya_Model("(18)سَنَدْعُ ٱلزَّبَانِيَةَ","ہم بھی اپنے موکلانِ دوزخ کو بلا لیں گے","We will call the wardens of Hell."),
+            new Aya_Model("(19)كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩\t"," دیکھو اس کا کہا نہ ماننا اور قربِ (خدا) حاصل کرتے رہنا","Again, no! Never obey him ˹O Prophet˺! Rather, ˹continue to˺ prostrate and draw near ˹to Allah˺.")
             ));
 
     public static final ArrayList<Aya_Model> surahtin=new ArrayList<>(Arrays.asList(
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","",""),
-            new Aya_Model("","","")
+            new Aya_Model("(1)وَٱلتِّينِ وَٱلزَّيْتُونِ","انجیر کی قسم اور زیتون کی","By the fig and the olive ˹of Jerusalem˺,"),
+            new Aya_Model("(2)وَطُورِ سِينِينَ","اور طور سینین کی","and Mount Sinai,"),
+            new Aya_Model("(3)وَهَـٰذَا ٱلْبَلَدِ ٱلْأَمِينِ","اور اس امن والے شہر کی","and this secure city ˹of Mecca˺!"),
+            new Aya_Model("(4)لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍۢ","کہ ہم نے انسان کو بہت اچھی صورت میں پیدا کیا ہے","Indeed, We created humans in the best form."),
+            new Aya_Model("(5)ثُمَّ رَدَدْنَـٰهُ أَسْفَلَ سَـٰفِلِينَ","پھر (رفتہ رفتہ) اس (کی حالت) کو (بدل کر) پست سے پست کر دیا","But We will reduce them to the lowest of the low ˹in Hell˺,"),
+            new Aya_Model("(6)إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۢ","پھر (رفتہ رفتہ) اس (کی حالت) کو (بدل کر) پست سے پست کر دیا","except those who believe and do good—they will have a never-ending reward."),
+            new Aya_Model("(7)فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ","تو (اے آدم زاد) پھر تو جزا کے دن کو کیوں جھٹلاتا ہے؟","Now, what makes you deny the ˹final˺ Judgment?"),
+            new Aya_Model("(8)أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَـٰكِمِينَ"," کیا خدا سب سے بڑا حاکم نہیں ہے؟","Is Allah not the most just of all judges?")
             ));
 
     public static final ArrayList<Aya_Model> surahnshrah=new ArrayList<>(Arrays.asList(
