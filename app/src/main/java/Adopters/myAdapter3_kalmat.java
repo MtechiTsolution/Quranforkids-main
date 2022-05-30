@@ -69,7 +69,7 @@ public class myAdapter3_kalmat extends RecyclerView.Adapter<myAdapter3_kalmat.ho
         holder.text1.setText(arrayList.get(position).titile);
 //        holder.text3.setText(arrayList.get(position).arabic_tittle);
         holder.text2.setText(arrayList.get(position).sr_no_surah);
-        Toast.makeText(context, (arrayList.get(position).color), Toast.LENGTH_SHORT).show();
+      //  Toast.makeText(context, (arrayList.get(position).color), Toast.LENGTH_SHORT).show();
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

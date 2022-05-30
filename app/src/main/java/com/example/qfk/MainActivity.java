@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         LinearLayout read =(LinearLayout) findViewById(R.id.Read);
         LinearLayout listen=(LinearLayout) findViewById(R.id.listen);
         Intent READ = new Intent(MainActivity.this, ReadClick.class);

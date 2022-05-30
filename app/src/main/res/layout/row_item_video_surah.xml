@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:id="@+id/video_image"
+            android:src="@drawable/listen_surah_pic"
+            android:scaleType="fitXY">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nabi_regular"
+            android:text="سُوْرَۃُ النَّاس"
+            android:id="@+id/video_title_arabic"
+            android:gravity="center"
+            android:background="#F6BAD2"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Surah An-Nas"
+            android:id="@+id/video_title_engish"
+            android:background="#F6BAD2"
+            android:textSize="15sp">
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

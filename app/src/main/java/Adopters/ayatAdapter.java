@@ -15,7 +15,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.Models.Aya_Model;
 import com.Models.Dua_model;
 import com.Models.Surah_model;
-import com.example.qfk.Dua_1;
 import com.example.qfk.R;
 
 import java.util.ArrayList;

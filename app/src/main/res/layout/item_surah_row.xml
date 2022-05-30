@@ -26,13 +26,14 @@
             android:padding="5dp">
 
             <TextView
+                android:id="@+id/sr_no_surah"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1.7"
-                android:id="@+id/sr_no_surah"
-                android:textColor="@color/white"
+
+                android:layout_weight="1.5"
                 android:paddingLeft="10dp"
-                android:text="1"
+                android:text="13"
+                android:textColor="@color/white"
                 android:textSize="20sp">
 
             </TextView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "488122944598",
+    "firebase_url": "https://quranforkids-3d0f9-default-rtdb.firebaseio.com",
+    "project_id": "quranforkids-3d0f9",
+    "storage_bucket": "quranforkids-3d0f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488122944598:android:ccfe7b9a5b648a383fbff7",
+        "android_client_info": {
+          "package_name": "com.example.qfk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488122944598-c6dskaro61hbaqjrksrd4h8hfll4ido9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.qfk",
+            "certificate_hash": "a1ca0c40ffe7cd39e01b33fdb95bc7825ce31a3b"
+          }
+        },
+        {
+          "client_id": "488122944598-n8l2g5gt4mdl6n3ifn1voa0ice5ip13u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRNZJCGgLb6gfblBTuvILLXiPr2s77deU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488122944598-n8l2g5gt4mdl6n3ifn1voa0ice5ip13u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
