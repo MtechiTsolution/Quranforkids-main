@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="5dp"
     android:orientation="vertical"
     >
     <LinearLayout
@@ -19,16 +20,17 @@
             android:scaleType="fitXY">
 
         </ImageView>
+
         <TextView
+            android:id="@+id/video_title_arabic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textColor="@color/black"
-            android:fontFamily="@font/nabi_regular"
-            android:text="سُوْرَۃُ النَّاس"
-            android:id="@+id/video_title_arabic"
-            android:gravity="center"
             android:background="#F6BAD2"
+            android:fontFamily="@font/nabi_regular"
+            android:gravity="center"
+            android:text="سُوْرَۃُ النَّاس"
+            android:textColor="@color/black"
             android:textSize="15sp">
 
         </TextView>

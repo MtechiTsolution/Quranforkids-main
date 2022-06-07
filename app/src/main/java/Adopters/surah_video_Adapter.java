@@ -46,8 +46,8 @@ public class surah_video_Adapter  extends RecyclerView.Adapter<surah_video_Adapt
         surah_video_model p=arrayList.get(position);
 
 
-        holder.text1.setText(arrayList.get(position).title_video);
-        holder.text1.setText(arrayList.get(position).arabic_title);
+        holder.text1.setText(arrayList.get(position).title_eng);
+        holder.text2.setText(arrayList.get(position).arabic_title);
         holder.imgcontaxt.setImageResource(arrayList.get(position).image);
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,8 +72,8 @@ public class surah_video_Adapter  extends RecyclerView.Adapter<surah_video_Adapt
         public holder(@NonNull View itemView) {
             super(itemView);
             imgcontaxt = itemView.findViewById(R.id.video_image);
-            text1=itemView.findViewById(R.id.video_title_arabic);
-            text2=itemView.findViewById(R.id.video_title_engish);
+            text2=itemView.findViewById(R.id.video_title_arabic);
+            text1=itemView.findViewById(R.id.video_title_engish);
         }
     }
 }

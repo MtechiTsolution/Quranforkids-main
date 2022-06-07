@@ -47,7 +47,7 @@ public class alldata_surahvideo {
                     new surah_video_model(R.drawable.listen_surah_pic,"Surah Al-Infitar","سُوْرَۃُ الإِنْفِطَار"),
                     new surah_video_model(R.drawable.listen_surah_pic,"Surah At-Takwir","سُوْرَۃُ التَّكْوِير"),
                     new surah_video_model(R.drawable.listen_surah_pic,"Surah Fatiha","سُوْرَۃُ الفَاتِحَة")
-                    ));
+            ));
 
 
 

@@ -39,11 +39,10 @@ public class Surah_listen_click extends AppCompatActivity {
 
 
 
-
         surah_video_Adapter surah_video_adapter =
                 new surah_video_Adapter(this, alldata_surahvideo.video_models);
-        Toast.makeText(this, "checkadapter", Toast.LENGTH_SHORT).show();
-        rec.setAdapter(surah_video_adapter);
+    //    Toast.makeText(this, "checkadapter", Toast.LENGTH_SHORT).show();
+      rec.setAdapter(surah_video_adapter);
 //        myAdapter2_surah myAdapter2_surah=new  myAdapter2_surah(this,surah_models);
 //        rec.setAdapter(myAdapter2_surah);
 

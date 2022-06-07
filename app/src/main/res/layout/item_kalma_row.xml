@@ -6,6 +6,7 @@
     android:id="@+id/kalma_item_row"
     android:layout_height="wrap_content">
 
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="150dp"
@@ -18,38 +19,38 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:background="#03A9F4"
+            android:background="#495EE1"
             android:gravity="center"
             android:padding="10sp"
             android:id="@+id/dua_one_kalma"
             android:orientation="vertical"
             >
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:textColor="@color/black"
-                android:fontFamily="@font/urdufont"
-                android:paddingRight="15dp"
-                android:id="@+id/kalma_title"
-
-                android:text="سوتے وقت کی دعا"
-                android:textSize="20sp">
-            </TextView>
-
-            <TextView
                 android:id="@+id/sr_no_kalma"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:fontFamily="@font/alata"
+                android:fontFamily="@font/bubblegum"
                 android:gravity="center"
                 android:text="1"
                 android:textColor="#fff"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:textStyle="bold">
 
             </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.9"
+                android:textColor="@color/white"
+                android:fontFamily="@font/b612"
+                android:id="@+id/kalma_title"
+                android:gravity="center"
+                android:text="سوتے وقت کی دعا"
+                android:textSize="20sp">
+            </TextView>
+
+
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
