@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -37,6 +38,7 @@ public class surah_video_Adapter  extends RecyclerView.Adapter<surah_video_Adapt
     public surah_video_Adapter.holder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater Inflater=LayoutInflater.from(parent.getContext());
         View view=Inflater.inflate(R.layout.row_item_video_surah,parent,false);
+        //Toast.makeText(context, ""+arrayList.size(), Toast.LENGTH_SHORT).show();
         return new surah_video_Adapter.holder(view);
     }
 

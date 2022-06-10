@@ -46,7 +46,8 @@ public class Video_Act extends AppCompatActivity {
         Intent intent=getIntent();
          intValue = intent.getIntExtra("id", 1);
 
-        surah_video_model surah_video_model= alldata_surahvideo.video_models.get(intValue);
+       // surah_video_model surah_video_model= alldata_surahvideo.video_models.get(intValue);
+        Toast.makeText(Video_Act.this, ""+intValue, Toast.LENGTH_SHORT).show();
 
       LoadvideoFromfirbase();
 
