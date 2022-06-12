@@ -79,6 +79,7 @@
             android:layout_margin="10dp"
             android:id="@+id/Dua_read">
         </Button>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="70dp">
@@ -95,5 +96,15 @@
         android:src="@drawable/bot">
 
     </ImageView>
+    <include
+        android:id="@+id/bottomNavigationLayout"
+        layout="@layout/bottom_navigation_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
 </FrameLayout>

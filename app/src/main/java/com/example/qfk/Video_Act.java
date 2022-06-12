@@ -32,7 +32,10 @@ public class Video_Act extends AppCompatActivity {
     TextView title;
     ProgressBar progressBar;
     filemodel filemodel;
+    int a;
+    int b;
     int intValue;
+    int intval;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,14 +46,69 @@ public class Video_Act extends AppCompatActivity {
         title = findViewById(R.id.vtitle);
         progressBar = findViewById(R.id.progress_bar);
 
-        Intent intent=getIntent();
-         intValue = intent.getIntExtra("id", 1);
+        Bundle extras = getIntent().getExtras();
+
+
+        if(extras.containsKey("des")){
+//            intValue = extras.getString("id");
+            intValue = extras.getInt("id", 1);
+            LoadvideoFromfirbase();
+        }
+        else if (extras.containsKey("data")){
+            intValue = extras.getInt("no", 1);
+
+//            intValue = extras.getString("appdatadescipl",56);
+            Toast.makeText(Video_Act.this, ""+intValue, Toast.LENGTH_SHORT).show();
+            Loadvideokalma();
+        }
+//        Intent intent=getIntent();
+//        Intent intent2 = getIntent();
+//         intValue = intent.getIntExtra("id", 1);
+//
+//         intval = intent2.getIntExtra("no",36);
 
        // surah_video_model surah_video_model= alldata_surahvideo.video_models.get(intValue);
-        Toast.makeText(Video_Act.this, ""+intValue, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(Video_Act.this, ""+intValue, Toast.LENGTH_SHORT).show();
+//  if (intValue<=35){
+//      LoadvideoFromfirbase();
+//  }else if (intval==b){
+//      Loadvideokalma();
+//  }
 
-      LoadvideoFromfirbase();
 
+
+
+    }
+
+    private void Loadvideokalma() {
+        {
+            Toast.makeText(this, "i am here in Loadvideokalma", Toast.LENGTH_SHORT).show();
+
+            DatabaseReference reference= FirebaseDatabase.getInstance().
+                    getReference("kalmat");
+            Toast.makeText(this, ""+reference, Toast.LENGTH_SHORT).show();
+            reference.child(String.valueOf(intValue)).addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+
+                    if(snapshot.exists()){
+                        filemodel = snapshot.getValue(filemodel.class);
+                        String titles = filemodel.getTitle();
+                        title.setText(titles);
+
+                        setVideokalmaUrl(filemodel);
+                    }
+
+                }
+
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+
+                }
+            });
+        }
 
     }
 
@@ -112,7 +170,7 @@ public class Video_Act extends AppCompatActivity {
             public boolean onInfo(MediaPlayer mp, int what, int extra) {
                 switch (what){
                     case MediaPlayer.MEDIA_INFO_VIDEO_RENDERING_START:{
-                        progressBar.setVisibility(View.VISIBLE);
+                        progressBar.setVisibility(View.GONE);
                         return  true;
                     }
                     case  MediaPlayer.MEDIA_INFO_BUFFERING_START:{
@@ -129,6 +187,60 @@ public class Video_Act extends AppCompatActivity {
             }
         });
        videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mediaPlayer) {
+                mediaPlayer.start();
+            }
+        });
+
+    }
+
+    private void setVideokalmaUrl(filemodel filemodel) {
+        progressBar.setVisibility(View.VISIBLE);
+
+
+        String videourl = filemodel.getUrl();
+        Toast.makeText(Video_Act.this, "1 "+videourl, Toast.LENGTH_SHORT).show();
+        MediaController mediaController= new MediaController(Video_Act.this);
+        mediaController.setAnchorView(videoView);
+        Uri videouri = Uri.parse(videourl);
+        videoView.setMediaController(mediaController);
+        videoView.setVideoURI(videouri);
+        videoView.requestFocus();
+        //  Toast.makeText(Video_Act.this, " 2"+videourl, Toast.LENGTH_SHORT).show();
+
+        videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+            @Override
+            public void onPrepared(MediaPlayer mediaPlayer) {
+                //  Toast.makeText(Video_Act.this, " 3"+videourl, Toast.LENGTH_SHORT).show();
+
+                mediaPlayer.start();
+            }
+
+        });
+
+        videoView.setOnInfoListener(new MediaPlayer.OnInfoListener() {
+            @Override
+            public boolean onInfo(MediaPlayer mp, int what, int extra) {
+                switch (what){
+                    case MediaPlayer.MEDIA_INFO_VIDEO_RENDERING_START:{
+                        progressBar.setVisibility(View.GONE);
+                        return  true;
+                    }
+                    case  MediaPlayer.MEDIA_INFO_BUFFERING_START:{
+                        progressBar.setVisibility(View.GONE);
+                        return true;
+                    }
+
+                    case MediaPlayer.MEDIA_INFO_BUFFERING_END:{
+                        progressBar.setVisibility(View.GONE);
+                        return  true;
+                    }
+                }
+                return false;
+            }
+        });
+        videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mediaPlayer) {
                 mediaPlayer.start();

@@ -56,6 +56,7 @@ public class surah_video_Adapter  extends RecyclerView.Adapter<surah_video_Adapt
             public void onClick(View view) {
 
                 Intent intent=new Intent(context, Video_Act.class);
+                intent.putExtra("des","mydes");
                 intent.putExtra("id",position+1);
                 context.startActivity(intent);
             }

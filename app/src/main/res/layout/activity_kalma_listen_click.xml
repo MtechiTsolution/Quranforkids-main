@@ -54,7 +54,7 @@
             </TextView>
 
             <Button
-                android:id="@+id/one_listen"
+                android:id="@+id/kalma_1"
                 android:layout_width="330dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -72,6 +72,7 @@
             <Button
                 android:layout_width="330dp"
                 android:layout_height="50dp"
+                android:id="@+id/kalma_2"
                 android:layout_gravity="center"
                 android:layout_margin="5dp"
                 android:gravity="right|center"
@@ -90,6 +91,7 @@
         android:layout_gravity="center"
         android:layout_margin="5dp"
         android:background="#D32F2F"
+        android:id="@+id/kalma_3"
         android:fontFamily="@font/kalmafont"
         android:gravity="right|center"
         android:paddingRight="90dp"
@@ -107,6 +109,8 @@
         android:layout_margin="5dp"
         android:background="#689F38"
         android:text="کلمہ توحید"
+
+        android:id="@+id/kalma_4"
         android:gravity="right|center"
         android:textSize="25sp"
         android:paddingRight="90dp"
@@ -124,6 +128,7 @@
         android:fontFamily="@font/kalmafont"
         android:gravity="right|center"
         android:paddingRight="90dp"
+        android:id="@+id/kalma_5"
         android:drawableRight="@drawable/ic_baseline_play_arrow_24"
         android:text=" کلمہ استغفار"
         android:textColor="@color/white"
@@ -136,6 +141,8 @@
         android:layout_gravity="center"
         android:layout_margin="5dp"
         android:background="#00796B"
+        android:id="@+id/kalma_6"
+        android:onClick="onClick"
         android:text="کلمہ رد کفر"
         android:gravity="right|center"
         android:textSize="25sp"
