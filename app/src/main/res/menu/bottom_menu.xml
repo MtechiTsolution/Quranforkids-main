@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        android:visible="true" />
+    <item android:id="@+id/book_mark"
+        android:title="BookMark"
+        android:icon="@drawable/ic_baseline_bookmark_24"
+        android:visible="true"
+        />
+    <item android:id="@+id/Read_it"
+        android:title="Read"
+        android:icon="@drawable/read"
+        android:visible="true"
+        />
+    <item android:id="@+id/video_listen"
+        android:title="Listen"
+        android:icon="@drawable/ic_baseline_ondemand_video_24"
+        android:visible="true"
+        />
+    <item android:id="@+id/more"
+        android:title="More"
+        android:icon="@drawable/ic_baseline_read_more_24"
+        android:visible="true"
+        />
+</menu>
