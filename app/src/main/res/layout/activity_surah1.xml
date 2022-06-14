@@ -16,7 +16,7 @@
         android:id="@+id/title2"
         android:gravity="center"
         android:fontFamily="@font/bubblegum"
-        android:background="#9FF4A3"
+        android:background="#65C869"
         android:textColor="@color/black">
 
     </TextView>

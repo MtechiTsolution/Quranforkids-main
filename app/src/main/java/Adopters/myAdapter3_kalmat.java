@@ -19,8 +19,10 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.Models.Dua_model;
 import com.Models.Kalmat_model;
 import com.Models.Surah_model;
+import com.example.localdata.alldata;
 import com.example.qfk.R;
 import com.example.qfk.Surah_1;
 import com.example.qfk.pehla_kalma;
@@ -53,22 +55,26 @@ public class myAdapter3_kalmat extends RecyclerView.Adapter<myAdapter3_kalmat.ho
     public void onBindViewHolder(@NonNull holder holder, @SuppressLint("RecyclerView") int position) {
 //        Orders_model ds=datamodels.get(position);
         Kalmat_model p=arrayList.get(position);
-//        Random r = new Random();
-//        int red=r.nextInt(255 - 0 + 1)+0;
-//        int green=r.nextInt(255 - 0 + 1)+0;
-//        int blue=r.nextInt(255 - 0 + 1)+0;
-//
-//        GradientDrawable draw = new GradientDrawable();
-//        draw.setShape(GradientDrawable.RECTANGLE);
-//        draw.setColor(Color.rgb(red,green,blue));
-        // int color=  Integer.parseInt(arrayList.get(position).color);
-       // holder.linearLayout.setBackground();
+        Random r = new Random();
+        int red=r.nextInt(55 - 0 + 1)+0;
+        int green=r.nextInt(55 - 0 + 1)+0;
+        int blue=r.nextInt(25 - 0 + 1)+0;
 
-      //  holder.linearLayout.setBackgroundColor(Color.DKGRAY);
+        GradientDrawable draw = new GradientDrawable();
+        draw.setShape(GradientDrawable.RECTANGLE);
+        draw.setColor(Color.rgb(red,green,blue));
+        holder.linearLayout.setBackground(draw);
+       // int color=  Integer.parseInt(arrayList.get(position).color);
+       // holder.linearLayout.setBackground();
+        // holder.linearLayout.setBackground(arrayList.get(position).color);
+
+
 
         holder.text1.setText(arrayList.get(position).titile);
+
 //        holder.text3.setText(arrayList.get(position).arabic_tittle);
         holder.text2.setText(arrayList.get(position).sr_no_surah);
+
       //  Toast.makeText(context, (arrayList.get(position).color), Toast.LENGTH_SHORT).show();
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override

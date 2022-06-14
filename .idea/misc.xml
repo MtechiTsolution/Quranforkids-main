@@ -20,9 +20,7 @@
         <entry key="..\:/Github/QFK-main/app/src/main/res/layout/activity_dua8.xml" value="0.20416666666666666" />
         <entry key="..\:/Github/QFK-main/app/src/main/res/layout/activity_dua9.xml" value="0.20416666666666666" />
         <entry key="..\:/Github/QFK-main/app/src/main/res/layout/activity_dua_read_click.xml" value="0.20416666666666666" />
-        <entry key="..\:/Github/QFK-main/app/src/main/res/layout/activity_kalma_listen_click.xml" value="0.16304347826086957" />
         <entry key="..\:/Github/QFK-main/app/src/main/res/layout/activity_kalma_read_click.xml" value="0.15885416666666666" />
-        <entry key="..\:/Github/QFK-main/app/src/main/res/layout/activity_listen_click.xml" value="0.16304347826086957" />
         <entry key="..\:/Github/QFK-main/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Github/QFK-main/app/src/main/res/layout/activity_pehla_kalma.xml" value="0.17916666666666667" />
         <entry key="..\:/Github/QFK-main/app/src/main/res/layout/activity_read_click.xml" value="0.1" />
@@ -32,7 +30,6 @@
         <entry key="..\:/Github/QFK-main/app/src/main/res/layout/activity_surah_read_click.xml" value="0.14635416666666667" />
         <entry key="..\:/Github/QFK-main/app/src/main/res/layout/activity_surah_video.xml" value="0.18115942028985507" />
         <entry key="..\:/Github/QFK-main/app/src/main/res/layout/activity_video.xml" value="0.15" />
-        <entry key="..\:/Github/QFK-main/app/src/main/res/layout/bottom_navigation_drawer.xml" value="0.16304347826086957" />
         <entry key="..\:/Github/QFK-main/app/src/main/res/layout/dua_row_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Github/QFK-main/app/src/main/res/layout/item_dua_row.xml" value="0.20416666666666666" />
         <entry key="..\:/Github/QFK-main/app/src/main/res/layout/item_kalma_row.xml" value="0.15885416666666666" />
@@ -40,7 +37,6 @@
         <entry key="..\:/Github/QFK-main/app/src/main/res/layout/item_surah_row.xml" value="0.18854166666666666" />
         <entry key="..\:/Github/QFK-main/app/src/main/res/layout/row.xml" value="0.18115942028985507" />
         <entry key="..\:/Github/QFK-main/app/src/main/res/layout/row_item_video_surah.xml" value="0.19972826086956522" />
-        <entry key="..\:/Github/QFK-main/app/src/main/res/menu/bottom_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Github/QFK/app/src/main/res/layout/activity_dua1.xml" value="0.1" />
         <entry key="..\:/Github/QFK/app/src/main/res/layout/activity_read_click.xml" value="0.1" />
         <entry key="..\:/Github/QFK/app/src/main/res/layout/activity_surah_read_click.xml" value="0.20416666666666666" />
@@ -124,6 +120,7 @@
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/drawable/kalma.xml" value="0.1505" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/drawable/one_klm.xml" value="0.1" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/drawable/two_klm.xml" value="0.1505" />
+        <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/activity_dua1.xml" value="0.1921875" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/activity_dua_read_click.xml" value="0.1921875" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/activity_kalma_read_click.xml" value="0.1921875" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/activity_main.xml" value="0.1" />
@@ -138,10 +135,12 @@
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/dua_row_item.xml" value="0.1921875" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/item_dua_row.xml" value="0.1921875" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/item_kalma_row.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/item_surah_ayat.xml" value="0.1921875" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/item_surah_row.xml" value="0.1921875" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/kalma_read.xml" value="0.1921875" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/row.xml" value="0.1921875" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/row_item_video_surah.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/menu/bottom_menu.xml" value="0.1921875" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/menu/menu.xml" value="0.1921875" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK/app/src/main/res/drawable/dua_listen_border.xml" value="0.2" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK/app/src/main/res/drawable/gradient.xml" value="0.2" />
