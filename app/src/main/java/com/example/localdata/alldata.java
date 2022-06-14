@@ -29,8 +29,9 @@ public class alldata {
     new Dua_model("بارش کے وقت کی دعا","12","بارش کے وقت", "اَللّٰھُمَّ صَیِّبًا نَّا فِعًا","O Allah make it plentiful and beneficial.","اے اللہ اسے نفع دینے والی بارش بنا دے", R.drawable.rain,Color.WHITE),
     new Dua_model("دودھ پینے کی دعا","13","دودھ پینے کے بعد", "اَللّٰھُمَّ بَارِکْ لَنَا فِیْہِ وَزِدْنَامِنْہُ","O Allah Azzawajal give us abundance in this and grant us more than this.","یا الہی عزوجل ہمارے لئے اس میں برکت دے اور ہمیں اس سے زیادہ عنایت فرما۔", R.drawable.drinkmilk,Color.WHITE),
     new Dua_model("شکریہ ادا کرتے وقت کی دعا","14","شکریہ کرتے وقت", "جَزَاکَ اللّہُ خَیْرًا","May Allah Almighty give you good recompense (for doing a favour).","اللہ عزوجل تجھے (احسان کرنے کی)جزاۓ خیر دے", R.drawable.thanks_dua,Color.WHITE),
-    new Dua_model("خوشی کے وقت کی دعا","15","خوشی کے وقت", "سُبْحَانَ اللّٰہِ اَللّٰہُ اَکْبَر","God is holy, God is the greatest.","اللہ پاک ہے، اللہ سب سے بڑا ہے۔", R.drawable.happy,Color.WHITE),
-    new Dua_model("وضو سے پہلے کی دعا","16","وضو سے پہلے ", "بِسْمِ اللّٰہِ وَلْحَمْدُ لِلّٰہِ","Allah Azzawajal in the name of the most affectionate, the merciful.","اللہ عزوجل کے نام سے شروع جو بڑا مہربان اور نہایت رحم والا ہے۔", R.drawable.wazu,Color.WHITE)));
+    new Dua_model("غصہ آنے کے وقت کی دعا","15","غصہ آنے کے وقت", "أَعُوذُ بِاللّٰہِ مِنَ الشَّيْطٰنِ الرَّجِيمِ","I seek the refuge of Allah Almighty from the rejected Shetan.","میں شیطان مردود سے اللہ عزوجل کی پناہ چاہتا ہوں۔", R.drawable.happy,Color.WHITE),
+    new Dua_model("وضو کے بعد کی دعا","16","وضو کے بعد", "أَشْهَدُ أنْ لا إلَٰهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيْكَ لَهُ وَأشْهَدُ أنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ","I bear witness that there is no god but Allah, He is the One, there is no partner to Him, and I bear witness that Muhammad is His servant and Messenger.","میں گواہی دیتا ہو کہ اللہ کے سوا کوئی معبود نہیں وہ اکیلا ہے اسکا کوئی شریک نہیں اور میں گواہی دیتا ہو کہ محمد ﷺ اسکے بندے اور رسول ہیں\n" +
+            "\n۔", R.drawable.wazu,Color.WHITE)));
 
      
 
