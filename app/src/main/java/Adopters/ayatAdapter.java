@@ -41,6 +41,7 @@ public class ayatAdapter  extends  RecyclerView.Adapter<ayatAdapter.holder>{
         holder.text2.setText(arrayList.get(position).getEnglish());
         holder.text3.setText(arrayList.get(position).getUrdu());
 
+
     }
 
     @Override

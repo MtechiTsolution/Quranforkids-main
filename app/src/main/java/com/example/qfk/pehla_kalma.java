@@ -33,6 +33,7 @@ public class pehla_kalma extends AppCompatActivity {
         u_trans=findViewById(R.id.u_trans);
         e_trans=findViewById(R.id.e_trans);
         linearLayout=findViewById(R.id.linear_kalmat);
+
       //  imageView=findViewById(R.id.image);
 
         Random r = new Random();
@@ -59,6 +60,7 @@ public class pehla_kalma extends AppCompatActivity {
         Intent intent=getIntent();
         int intValue = intent.getIntExtra("id", 0);
         Kalmat_model kalmat_model= alldata_kalmat.kalmat_models.get(intValue);
+        title.setBackgroundColor(kalmat_model.color);
 
         title.setText(kalmat_model.title22);
         arabic.setText(kalmat_model.arabicc);
