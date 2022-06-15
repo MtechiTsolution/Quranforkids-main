@@ -56,9 +56,9 @@ public class myAdapter3_kalmat extends RecyclerView.Adapter<myAdapter3_kalmat.ho
 //        Orders_model ds=datamodels.get(position);
         Kalmat_model p=arrayList.get(position);
         Random r = new Random();
-        int red=r.nextInt(55 - 0 + 1)+0;
-        int green=r.nextInt(55 - 0 + 1)+0;
-        int blue=r.nextInt(25 - 0 + 1)+0;
+        int red=r.nextInt(230 - 0 + 1)+0;
+        int green=r.nextInt(200 - 0 + 1)+0;
+        int blue=r.nextInt(125 - 0 + 1)+0;
 
         GradientDrawable draw = new GradientDrawable();
         draw.setShape(GradientDrawable.RECTANGLE);

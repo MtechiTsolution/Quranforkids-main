@@ -33,6 +33,7 @@
              android:padding="5dp"
              android:background="#FFCEE1">
              <LinearLayout
+                 android:id="@+id/dua1"
                  android:layout_width="180dp"
                  android:layout_height="wrap_content"
                  android:orientation="vertical"
@@ -62,6 +63,7 @@
                  </TextView>
              </LinearLayout>
              <LinearLayout
+                 android:id="@+id/dua2"
                  android:layout_width="180dp"
                  android:layout_height="wrap_content"
                  android:orientation="vertical"
@@ -102,6 +104,7 @@
                  android:padding="5dp"
                  android:background="#FFCEE1">
                  <LinearLayout
+                     android:id="@+id/dua3"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -131,6 +134,7 @@
                      </TextView>
                  </LinearLayout>
                  <LinearLayout
+                     android:id="@+id/dua4"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -170,6 +174,7 @@
                  android:padding="5dp"
                  android:background="#FFCEE1">
                  <LinearLayout
+                     android:id="@+id/dua5"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -199,6 +204,7 @@
                      </TextView>
                  </LinearLayout>
                  <LinearLayout
+                     android:id="@+id/dua6"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -238,6 +244,7 @@
                  android:padding="5dp"
                  android:background="#FFCEE1">
                  <LinearLayout
+                     android:id="@+id/dua7"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -267,6 +274,7 @@
                      </TextView>
                  </LinearLayout>
                  <LinearLayout
+                     android:id="@+id/dua8"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -306,6 +314,7 @@
                  android:padding="5dp"
                  android:background="#FFCEE1">
                  <LinearLayout
+                     android:id="@+id/dua9"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -335,6 +344,7 @@
                      </TextView>
                  </LinearLayout>
                  <LinearLayout
+                     android:id="@+id/dua10"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -374,6 +384,7 @@
                  android:padding="5dp"
                  android:background="#FFCEE1">
                  <LinearLayout
+                     android:id="@+id/dua11"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -403,6 +414,7 @@
                      </TextView>
                  </LinearLayout>
                  <LinearLayout
+                     android:id="@+id/dua12"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -442,6 +454,7 @@
                  android:padding="5dp"
                  android:background="#FFCEE1">
                  <LinearLayout
+                     android:id="@+id/dua13"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -471,6 +484,7 @@
                      </TextView>
                  </LinearLayout>
                  <LinearLayout
+                     android:id="@+id/dua14"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -510,6 +524,7 @@
                  android:padding="5dp"
                  android:background="#FFCEE1">
                  <LinearLayout
+                     android:id="@+id/dua15"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -539,6 +554,7 @@
                      </TextView>
                  </LinearLayout>
                  <LinearLayout
+                     android:id="@+id/dua16"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"

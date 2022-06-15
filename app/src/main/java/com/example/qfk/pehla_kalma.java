@@ -36,15 +36,15 @@ public class pehla_kalma extends AppCompatActivity {
 
       //  imageView=findViewById(R.id.image);
 
-        Random r = new Random();
-        int red=r.nextInt(255 - 0 + 1)+0;
-        int green=r.nextInt(255 - 0 + 1)+0;
-        int blue=r.nextInt(255 - 0 + 1)+0;
-
-        GradientDrawable draw = new GradientDrawable();
-        draw.setShape(GradientDrawable.RECTANGLE);
-        draw.setColor(Color.rgb(red,green,blue));
-        linearLayout.setBackground(draw);
+//        Random r = new Random();
+//        int red=r.nextInt(255 - 0 + 1)+0;
+//        int green=r.nextInt(255 - 0 + 1)+0;
+//        int blue=r.nextInt(255 - 0 + 1)+0;
+//
+//        GradientDrawable draw = new GradientDrawable();
+//        draw.setShape(GradientDrawable.RECTANGLE);
+//        draw.setColor(Color.rgb(red,green,blue));
+//        linearLayout.setBackground(draw);
 
 //        Random rr = new Random();
 //        int redd=rr.nextInt(2300 - 0 + 1)+0;
@@ -60,7 +60,7 @@ public class pehla_kalma extends AppCompatActivity {
         Intent intent=getIntent();
         int intValue = intent.getIntExtra("id", 0);
         Kalmat_model kalmat_model= alldata_kalmat.kalmat_models.get(intValue);
-        title.setBackgroundColor(kalmat_model.color);
+      //  title.setBackgroundColor(kalmat_model.color);
 
         title.setText(kalmat_model.title22);
         arabic.setText(kalmat_model.arabicc);
