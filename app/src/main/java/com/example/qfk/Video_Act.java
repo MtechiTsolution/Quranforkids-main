@@ -104,10 +104,7 @@ public class Video_Act extends AppCompatActivity {
 
                         setVideoduaUrl(filemodel);
                     }
-
                 }
-
-
                 @Override
                 public void onCancelled(@NonNull DatabaseError error) {
 
