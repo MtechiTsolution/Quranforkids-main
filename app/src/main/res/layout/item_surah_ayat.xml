@@ -3,12 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+
     android:orientation="vertical">
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="12dp"
-        android:layout_margin="3dp"
+        android:layout_margin="4dp"
       >
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:id="@+id/ayat_arabic"
-                android:textColor="@color/black"
+                android:textColor="#8F0F98"
                 android:fontFamily="@font/nabi_regular"
                 android:paddingRight="10dp"
                 android:text="(1)أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ"
@@ -35,7 +36,7 @@
                 android:layout_weight="1"
                 android:paddingLeft="10dp"
                 android:id="@+id/e_translation"
-                android:textColor="@color/black"
+                android:textColor="#8F0F98"
                 android:text="Have you not seen ˹O Prophet˺ how your Lord dealt with the Army of the Elephant?"
                 android:textSize="20sp">
             </TextView>
@@ -45,7 +46,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/urdufont"
                 android:paddingLeft="10dp"
-                android:textColor="@color/black"
+                android:textColor="#8F0F98"
                 android:id="@+id/urdu_translation"
                 android:text="کیا تم نے نہیں دیکھا کہ تمہارے پروردگار نے ہاتھی والوں کے ساتھ کیا کیا"
                 android:textSize="20sp">

@@ -50,7 +50,7 @@ public class Surah_1 extends AppCompatActivity {
         ayatAdapter ayatAdapter=new ayatAdapter(this, surah_model.ayats);
         rec.setAdapter(ayatAdapter);
 //
-        title.setText(surah_model.titile);
+        title.setText(surah_model.arabic_tittle);
 //        arabic.setText(surah_model.arabicc);
 //        e_trans.setText(surah_model.e_transalationn);
 //        u_trans.setText(surah_model.u_translationn);

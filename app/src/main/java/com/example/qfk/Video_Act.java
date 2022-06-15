@@ -61,6 +61,11 @@ public class Video_Act extends AppCompatActivity {
             Toast.makeText(Video_Act.this, ""+intValue, Toast.LENGTH_SHORT).show();
             Loadvideokalma();
         }
+        else if (extras.containsKey("dua")){
+            intValue = extras.getInt("dd", 1);
+            Toast.makeText(Video_Act.this, ""+intValue, Toast.LENGTH_SHORT).show();
+            loadvidodua();
+        }
 //        Intent intent=getIntent();
 //        Intent intent2 = getIntent();
 //         intValue = intent.getIntExtra("id", 1);
@@ -79,6 +84,38 @@ public class Video_Act extends AppCompatActivity {
 
 
     }
+
+    private void loadvidodua() {
+        {
+            Toast.makeText(this, "i am here in Loadvideodua", Toast.LENGTH_SHORT).show();
+
+            DatabaseReference reference= FirebaseDatabase.getInstance().
+                    getReference("Dua");
+            Toast.makeText(this, ""+reference, Toast.LENGTH_SHORT).show();
+            reference.child(String.valueOf(intValue)).addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+
+                    if(snapshot.exists()){
+                        filemodel = snapshot.getValue(filemodel.class);
+                        String titles = filemodel.getTitle();
+                        title.setText(titles);
+
+                        setVideoduaUrl(filemodel);
+                    }
+
+                }
+
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+
+                }
+            });
+        }
+    }
+
 
     private void Loadvideokalma() {
         {
@@ -196,6 +233,59 @@ public class Video_Act extends AppCompatActivity {
     }
 
     private void setVideokalmaUrl(filemodel filemodel) {
+        progressBar.setVisibility(View.VISIBLE);
+
+
+        String videourl = filemodel.getUrl();
+        Toast.makeText(Video_Act.this, "1 "+videourl, Toast.LENGTH_SHORT).show();
+        MediaController mediaController= new MediaController(Video_Act.this);
+        mediaController.setAnchorView(videoView);
+        Uri videouri = Uri.parse(videourl);
+        videoView.setMediaController(mediaController);
+        videoView.setVideoURI(videouri);
+        videoView.requestFocus();
+        //  Toast.makeText(Video_Act.this, " 2"+videourl, Toast.LENGTH_SHORT).show();
+
+        videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+            @Override
+            public void onPrepared(MediaPlayer mediaPlayer) {
+                //  Toast.makeText(Video_Act.this, " 3"+videourl, Toast.LENGTH_SHORT).show();
+
+                mediaPlayer.start();
+            }
+
+        });
+
+        videoView.setOnInfoListener(new MediaPlayer.OnInfoListener() {
+            @Override
+            public boolean onInfo(MediaPlayer mp, int what, int extra) {
+                switch (what){
+                    case MediaPlayer.MEDIA_INFO_VIDEO_RENDERING_START:{
+                        progressBar.setVisibility(View.GONE);
+                        return  true;
+                    }
+                    case  MediaPlayer.MEDIA_INFO_BUFFERING_START:{
+                        progressBar.setVisibility(View.GONE);
+                        return true;
+                    }
+
+                    case MediaPlayer.MEDIA_INFO_BUFFERING_END:{
+                        progressBar.setVisibility(View.GONE);
+                        return  true;
+                    }
+                }
+                return false;
+            }
+        });
+        videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mediaPlayer) {
+                mediaPlayer.start();
+            }
+        });
+
+    }
+    private void setVideoduaUrl(filemodel filemodel) {
         progressBar.setVisibility(View.VISIBLE);
 
 

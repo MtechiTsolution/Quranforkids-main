@@ -112,17 +112,23 @@
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QFK/app/src/main/res/menu/menu.xml" value="0.215625" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QFK/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QFK/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/drawable/gradient.xml" value="0.16" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/drawable/gradient_btn.xml" value="0.16" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/drawable/gradient_dua_read.xml" value="0.1505" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/drawable/gradient_kalma_listen.xml" value="0.1505" />
+        <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/drawable/gradient_kalma_read.xml" value="0.16" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/drawable/gradient_surah_listen.xml" value="0.1505" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/drawable/gradient_surah_read.xml" value="0.1505" />
+        <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/drawable/gradientdua.xml" value="0.16" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/drawable/kalma.xml" value="0.1505" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/drawable/one_klm.xml" value="0.1" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/drawable/two_klm.xml" value="0.1505" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/activity_dua1.xml" value="0.1921875" />
+        <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/activity_dua_listen_click.xml" value="0.1921875" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/activity_dua_read_click.xml" value="0.1921875" />
+        <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/activity_kalma_listen_click.xml" value="0.1921875" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/activity_kalma_read_click.xml" value="0.1921875" />
+        <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/activity_listen_click.xml" value="0.1921875" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/activity_pehla_kalma.xml" value="0.1921875" />
         <entry key="..\:/Users/ADMIN/Documents/GitHub/QFK-main/app/src/main/res/layout/activity_read_click.xml" value="0.1921875" />
