@@ -13,17 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QFK">
         <activity
+            android:name=".More"
+            android:exported="false" />
+        <activity
             android:name=".Video_Act"
             android:exported="true"
-            android:screenOrientation="landscape"
-            >
-
-        </activity>
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name=".SurahVideo"
-            android:exported="false">
-
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".Splash_Screen"
             android:exported="true"

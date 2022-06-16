@@ -15,7 +15,7 @@
         android:gravity="center"
         android:id="@+id/title2"
         android:fontFamily="@font/urdufont"
-        android:background="#D50D5C"
+        android:background="@drawable/gradientdua"
         android:textColor="@color/black">
     </TextView>
 
@@ -35,11 +35,12 @@
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
                 android:layout_margin="10dp"
+                android:padding="10dp"
                 android:gravity="center"
                 android:id="@+id/arabic"
                 android:textIsSelectable="true"
                 android:fontFamily="@font/nabi_regular"
-                android:background="#F69ABE"
+                android:background="@drawable/kalma_border"
                 android:text="اَللّٰھُمَّ بِاسْمِکَ  اَمُوْتُ وَاَحْیَا"
                 android:textSize="28sp">
             </TextView>

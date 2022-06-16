@@ -58,12 +58,12 @@ public class Video_Act extends AppCompatActivity {
             intValue = extras.getInt("no", 1);
 
 //            intValue = extras.getString("appdatadescipl",56);
-            Toast.makeText(Video_Act.this, ""+intValue, Toast.LENGTH_SHORT).show();
+        //    Toast.makeText(Video_Act.this, ""+intValue, Toast.LENGTH_SHORT).show();
             Loadvideokalma();
         }
         else if (extras.containsKey("dua")){
             intValue = extras.getInt("dd", 1);
-            Toast.makeText(Video_Act.this, ""+intValue, Toast.LENGTH_SHORT).show();
+         //   Toast.makeText(Video_Act.this, ""+intValue, Toast.LENGTH_SHORT).show();
             loadvidodua();
         }
 //        Intent intent=getIntent();
@@ -87,11 +87,11 @@ public class Video_Act extends AppCompatActivity {
 
     private void loadvidodua() {
         {
-            Toast.makeText(this, "i am here in Loadvideodua", Toast.LENGTH_SHORT).show();
+           // Toast.makeText(this, "i am here in Loadvideodua", Toast.LENGTH_SHORT).show();
 
             DatabaseReference reference= FirebaseDatabase.getInstance().
                     getReference("Dua");
-            Toast.makeText(this, ""+reference, Toast.LENGTH_SHORT).show();
+         //   Toast.makeText(this, ""+reference, Toast.LENGTH_SHORT).show();
             reference.child(String.valueOf(intValue)).addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -116,11 +116,11 @@ public class Video_Act extends AppCompatActivity {
 
     private void Loadvideokalma() {
         {
-            Toast.makeText(this, "i am here in Loadvideokalma", Toast.LENGTH_SHORT).show();
+           // Toast.makeText(this, "i am here in Loadvideokalma", Toast.LENGTH_SHORT).show();
 
             DatabaseReference reference= FirebaseDatabase.getInstance().
                     getReference("kalmat");
-            Toast.makeText(this, ""+reference, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, ""+reference, Toast.LENGTH_SHORT).show();
             reference.child(String.valueOf(intValue)).addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -152,7 +152,7 @@ public class Video_Act extends AppCompatActivity {
 
         DatabaseReference reference= FirebaseDatabase.getInstance().
                 getReference("video");
-        Toast.makeText(this, ""+reference, Toast.LENGTH_SHORT).show();
+       // Toast.makeText(this, ""+reference, Toast.LENGTH_SHORT).show();
         reference.child(String.valueOf(intValue)).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -180,7 +180,7 @@ public class Video_Act extends AppCompatActivity {
 
 
         String videourl = filemodel.getUrl();
-        Toast.makeText(Video_Act.this, "1 "+videourl, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(Video_Act.this, "1 "+videourl, Toast.LENGTH_SHORT).show();
         MediaController mediaController= new MediaController(Video_Act.this);
         mediaController.setAnchorView(videoView);
         Uri videouri = Uri.parse(videourl);
@@ -231,7 +231,7 @@ public class Video_Act extends AppCompatActivity {
 
 
         String videourl = filemodel.getUrl();
-        Toast.makeText(Video_Act.this, "1 "+videourl, Toast.LENGTH_SHORT).show();
+       // Toast.makeText(Video_Act.this, "1 "+videourl, Toast.LENGTH_SHORT).show();
         MediaController mediaController= new MediaController(Video_Act.this);
         mediaController.setAnchorView(videoView);
         Uri videouri = Uri.parse(videourl);
@@ -284,7 +284,7 @@ public class Video_Act extends AppCompatActivity {
 
 
         String videourl = filemodel.getUrl();
-        Toast.makeText(Video_Act.this, "1 "+videourl, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(Video_Act.this, "1 "+videourl, Toast.LENGTH_SHORT).show();
         MediaController mediaController= new MediaController(Video_Act.this);
         mediaController.setAnchorView(videoView);
         Uri videouri = Uri.parse(videourl);
