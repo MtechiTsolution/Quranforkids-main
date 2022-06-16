@@ -32,7 +32,7 @@
                 android:layout_weight="1.5"
                 android:paddingLeft="5dp"
                 android:text="13"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="20sp">
 
             </TextView>
@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0.8"
                 android:id="@+id/surah_title"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:paddingLeft="5dp"
                 android:text="Surah Al-Falaq"
                 android:textSize="20sp">
@@ -57,7 +57,7 @@
                 android:paddingRight="5dp"
                 android:text="سُوْرَۃُ الفَلَق"
                 android:id="@+id/surah_title_arabic"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="20sp">
 
             </TextView>

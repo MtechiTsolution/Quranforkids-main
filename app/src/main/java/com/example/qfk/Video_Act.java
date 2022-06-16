@@ -207,14 +207,11 @@ public class Video_Act extends AppCompatActivity {
                         progressBar.setVisibility(View.GONE);
                         return  true;
                     }
-                    case  MediaPlayer.MEDIA_INFO_BUFFERING_START:{
+                    case  MediaPlayer.MEDIA_INFO_BUFFERING_START:
+
+                    case MediaPlayer.MEDIA_INFO_BUFFERING_END: {
                         progressBar.setVisibility(View.GONE);
                         return true;
-                    }
-
-                    case MediaPlayer.MEDIA_INFO_BUFFERING_END:{
-                        progressBar.setVisibility(View.GONE);
-                        return  true;
                     }
                 }
                 return false;

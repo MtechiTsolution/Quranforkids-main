@@ -116,7 +116,7 @@
                      <ImageView
                          android:layout_width="130dp"
                          android:layout_height="100dp"
-                         android:src="@drawable/after_eat"
+                         android:src="@drawable/leavehouse"
                          android:layout_weight="1"
                          android:layout_marginTop="5dp"
                          android:layout_gravity="center">
@@ -124,7 +124,7 @@
                      <TextView
                          android:layout_width="match_parent"
                          android:layout_height="wrap_content"
-                         android:text="کھانے کے بعد کی دعا"
+                         android:text="گھر سے نکلتے وقت کی دعا"
                          android:textColor="@color/black"
                          android:textSize="20sp"
                          android:gravity="center"
@@ -217,7 +217,7 @@
                          android:layout_width="130dp"
                          android:layout_height="100dp"
                          android:layout_weight="1"
-                         android:src="@drawable/handshake"
+                         android:src="@drawable/magfirat"
                          android:layout_marginTop="5dp"
                          android:layout_gravity="center"
                          >
@@ -225,7 +225,7 @@
                      <TextView
                          android:layout_width="match_parent"
                          android:layout_height="wrap_content"
-                         android:text="مصافحہ کرتے وقت کی دعا"
+                         android:text="مغفرت کی دعا"
                          android:textColor="@color/black"
                          android:textSize="20sp"
                          android:layout_weight="1"
@@ -498,14 +498,14 @@
                          android:layout_height="100dp"
                          android:layout_weight="1"
                          android:layout_marginTop="5dp"
-                         android:src="@drawable/thanks_dua"
+                         android:src="@drawable/upstair"
                          android:layout_gravity="center"
                          >
                      </ImageView>
                      <TextView
                          android:layout_width="match_parent"
                          android:layout_height="wrap_content"
-                         android:text="شکریہ ادا کرتے وقت کی دعا"
+                         android:text="سیڑھیاں چڑھتے وقت کی دعا"
                          android:textColor="@color/black"
                          android:textSize="20sp"
                          android:layout_weight="1"
@@ -537,14 +537,14 @@
                          android:layout_width="130dp"
                          android:layout_height="100dp"
                          android:layout_weight="1"
-                         android:src="@drawable/happy"
+                         android:src="@drawable/angrychild"
                          android:layout_marginTop="5dp"
                          android:layout_gravity="center">
                      </ImageView>
                      <TextView
                          android:layout_width="match_parent"
                          android:layout_height="wrap_content"
-                         android:text="خوشی کے وقت کی دعا"
+                         android:text="غصے کے وقت کی دعا"
                          android:textColor="@color/black"
                          android:textSize="20sp"
                          android:layout_weight="1"
@@ -575,7 +575,7 @@
                      <TextView
                          android:layout_width="match_parent"
                          android:layout_height="wrap_content"
-                         android:text="وضو سے پہلے کی دعا"
+                         android:text="وضو کے بعد کی دعا"
                          android:textColor="@color/black"
                          android:textSize="20sp"
                          android:layout_weight="1"
