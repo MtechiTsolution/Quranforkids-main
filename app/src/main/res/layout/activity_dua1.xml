@@ -15,7 +15,7 @@
         android:gravity="center"
         android:id="@+id/title2"
         android:fontFamily="@font/urdufont"
-        android:background="@drawable/gradientdua"
+        android:backgroundTint="#C2185B"
         android:textColor="@color/black">
     </TextView>
 
