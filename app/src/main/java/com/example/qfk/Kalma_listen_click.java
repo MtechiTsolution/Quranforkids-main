@@ -35,7 +35,7 @@ int appdatadescipl ;
         {
             case R.id.kalma_1: {
               appdatadescipl=1;
-                Toast.makeText(this, "Kalma 1", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(this, "Kalma 1", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(Kalma_listen_click.this,Video_Act.class);
                 intent.putExtra("data" , "mydata");
                 intent.putExtra("no" , appdatadescipl);
@@ -44,7 +44,7 @@ int appdatadescipl ;
             }
             case R.id.kalma_2: {
                 appdatadescipl=2;
-                Toast.makeText(this, "Kalma 2", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(this, "Kalma 2", Toast.LENGTH_SHORT).show();
                 Intent intent1 = new Intent(Kalma_listen_click.this,Video_Act.class);
                 intent1.putExtra("data" , "mydata");
                 intent1.putExtra("no" , appdatadescipl);
@@ -54,7 +54,7 @@ int appdatadescipl ;
             case R.id.kalma_3:
                 appdatadescipl=3;
 
-                Toast.makeText(this, "Kalma 3", Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(this, "Kalma 3", Toast.LENGTH_SHORT).show();
                 Intent intent2 = new Intent(Kalma_listen_click.this,Video_Act.class);
                 intent2.putExtra("data" , "mydata");
                 intent2.putExtra("data" , "mydata");
@@ -64,7 +64,7 @@ int appdatadescipl ;
             case R.id.kalma_4:
                 appdatadescipl=4;
 
-                Toast.makeText(this, "Kalma 4", Toast.LENGTH_SHORT).show();
+             //   Toast.makeText(this, "Kalma 4", Toast.LENGTH_SHORT).show();
                 Intent intent3 = new Intent(Kalma_listen_click.this,Video_Act.class);
                 intent3.putExtra("data" , "mydata");
                 intent3.putExtra("no" , appdatadescipl);
@@ -73,7 +73,7 @@ int appdatadescipl ;
             case R.id.kalma_5:
                 appdatadescipl=5;
 
-                Toast.makeText(this, "Kalma 5", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(this, "Kalma 5", Toast.LENGTH_SHORT).show();
                 Intent intent4 = new Intent(Kalma_listen_click.this,Video_Act.class);
                 intent4.putExtra("data" , "mydata");
                 intent4.putExtra("no" , appdatadescipl);
@@ -82,7 +82,7 @@ int appdatadescipl ;
             case R.id.kalma_6:
                 appdatadescipl=6;
 
-                Toast.makeText(this, "Kalma 6", Toast.LENGTH_SHORT).show();
+             //   Toast.makeText(this, "Kalma 6", Toast.LENGTH_SHORT).show();
                 Intent intent5 = new Intent(Kalma_listen_click.this,Video_Act.class);
                 intent5.putExtra("data" , "mydata");
                 intent5.putExtra("no" , appdatadescipl);

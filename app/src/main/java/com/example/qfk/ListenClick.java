@@ -76,7 +76,7 @@ public class ListenClick extends AppCompatActivity {
 //                        startActivity(intent1);
                         break;
                     case R.id.more:
-                        startActivity(new Intent(getApplicationContext(), Dua_read_click.class));
+                        startActivity(new Intent(getApplicationContext(), More.class));
                         finishAffinity();
                         break;
                 }

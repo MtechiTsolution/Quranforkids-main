@@ -33,6 +33,7 @@
              android:padding="5dp"
              android:background="#FFCEE1">
              <LinearLayout
+                 android:id="@+id/dua1"
                  android:layout_width="180dp"
                  android:layout_height="wrap_content"
                  android:orientation="vertical"
@@ -62,6 +63,7 @@
                  </TextView>
              </LinearLayout>
              <LinearLayout
+                 android:id="@+id/dua2"
                  android:layout_width="180dp"
                  android:layout_height="wrap_content"
                  android:orientation="vertical"
@@ -102,6 +104,7 @@
                  android:padding="5dp"
                  android:background="#FFCEE1">
                  <LinearLayout
+                     android:id="@+id/dua3"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -113,7 +116,7 @@
                      <ImageView
                          android:layout_width="130dp"
                          android:layout_height="100dp"
-                         android:src="@drawable/after_eat"
+                         android:src="@drawable/leavehouse"
                          android:layout_weight="1"
                          android:layout_marginTop="5dp"
                          android:layout_gravity="center">
@@ -121,7 +124,7 @@
                      <TextView
                          android:layout_width="match_parent"
                          android:layout_height="wrap_content"
-                         android:text="کھانے کے بعد کی دعا"
+                         android:text="گھر سے نکلتے وقت کی دعا"
                          android:textColor="@color/black"
                          android:textSize="20sp"
                          android:gravity="center"
@@ -131,6 +134,7 @@
                      </TextView>
                  </LinearLayout>
                  <LinearLayout
+                     android:id="@+id/dua4"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -170,6 +174,7 @@
                  android:padding="5dp"
                  android:background="#FFCEE1">
                  <LinearLayout
+                     android:id="@+id/dua5"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -199,6 +204,7 @@
                      </TextView>
                  </LinearLayout>
                  <LinearLayout
+                     android:id="@+id/dua6"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -211,7 +217,7 @@
                          android:layout_width="130dp"
                          android:layout_height="100dp"
                          android:layout_weight="1"
-                         android:src="@drawable/handshake"
+                         android:src="@drawable/magfirat"
                          android:layout_marginTop="5dp"
                          android:layout_gravity="center"
                          >
@@ -219,7 +225,7 @@
                      <TextView
                          android:layout_width="match_parent"
                          android:layout_height="wrap_content"
-                         android:text="مصافحہ کرتے وقت کی دعا"
+                         android:text="مغفرت کی دعا"
                          android:textColor="@color/black"
                          android:textSize="20sp"
                          android:layout_weight="1"
@@ -238,6 +244,7 @@
                  android:padding="5dp"
                  android:background="#FFCEE1">
                  <LinearLayout
+                     android:id="@+id/dua7"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -267,6 +274,7 @@
                      </TextView>
                  </LinearLayout>
                  <LinearLayout
+                     android:id="@+id/dua8"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -306,6 +314,7 @@
                  android:padding="5dp"
                  android:background="#FFCEE1">
                  <LinearLayout
+                     android:id="@+id/dua9"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -335,6 +344,7 @@
                      </TextView>
                  </LinearLayout>
                  <LinearLayout
+                     android:id="@+id/dua10"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -374,6 +384,7 @@
                  android:padding="5dp"
                  android:background="#FFCEE1">
                  <LinearLayout
+                     android:id="@+id/dua11"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -403,6 +414,7 @@
                      </TextView>
                  </LinearLayout>
                  <LinearLayout
+                     android:id="@+id/dua12"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -442,6 +454,7 @@
                  android:padding="5dp"
                  android:background="#FFCEE1">
                  <LinearLayout
+                     android:id="@+id/dua13"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -471,6 +484,7 @@
                      </TextView>
                  </LinearLayout>
                  <LinearLayout
+                     android:id="@+id/dua14"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -484,14 +498,14 @@
                          android:layout_height="100dp"
                          android:layout_weight="1"
                          android:layout_marginTop="5dp"
-                         android:src="@drawable/thanks_dua"
+                         android:src="@drawable/upstair"
                          android:layout_gravity="center"
                          >
                      </ImageView>
                      <TextView
                          android:layout_width="match_parent"
                          android:layout_height="wrap_content"
-                         android:text="شکریہ ادا کرتے وقت کی دعا"
+                         android:text="سیڑھیاں چڑھتے وقت کی دعا"
                          android:textColor="@color/black"
                          android:textSize="20sp"
                          android:layout_weight="1"
@@ -510,6 +524,7 @@
                  android:padding="5dp"
                  android:background="#FFCEE1">
                  <LinearLayout
+                     android:id="@+id/dua15"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -522,14 +537,14 @@
                          android:layout_width="130dp"
                          android:layout_height="100dp"
                          android:layout_weight="1"
-                         android:src="@drawable/happy"
+                         android:src="@drawable/angrychild"
                          android:layout_marginTop="5dp"
                          android:layout_gravity="center">
                      </ImageView>
                      <TextView
                          android:layout_width="match_parent"
                          android:layout_height="wrap_content"
-                         android:text="خوشی کے وقت کی دعا"
+                         android:text="غصے کے وقت کی دعا"
                          android:textColor="@color/black"
                          android:textSize="20sp"
                          android:layout_weight="1"
@@ -539,6 +554,7 @@
                      </TextView>
                  </LinearLayout>
                  <LinearLayout
+                     android:id="@+id/dua16"
                      android:layout_width="180dp"
                      android:layout_height="wrap_content"
                      android:orientation="vertical"
@@ -559,7 +575,7 @@
                      <TextView
                          android:layout_width="match_parent"
                          android:layout_height="wrap_content"
-                         android:text="وضو سے پہلے کی دعا"
+                         android:text="وضو کے بعد کی دعا"
                          android:textColor="@color/black"
                          android:textSize="20sp"
                          android:layout_weight="1"
