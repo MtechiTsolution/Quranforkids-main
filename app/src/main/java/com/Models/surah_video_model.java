@@ -21,8 +21,6 @@ public class surah_video_model {
         this.title_eng = title_eng;
     }
 
-    
-
     public String getArabic_title() {
         return arabic_title;
     }
@@ -30,8 +28,6 @@ public class surah_video_model {
     public void setArabic_title(String arabic_title) {
         this.arabic_title = arabic_title;
     }
-
-
 
     public int getImage() {
         return image;

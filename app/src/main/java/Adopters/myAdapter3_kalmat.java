@@ -36,11 +36,10 @@ public class myAdapter3_kalmat extends RecyclerView.Adapter<myAdapter3_kalmat.ho
     public myAdapter3_kalmat(Context context, ArrayList<Kalmat_model> arrayList){
         this.context=context;
         this.arrayList=arrayList;
-
     }
 //    public myAdapter(String[] data) {
 //        this.data = data;
-//    }
+//    },[],,=
 //   String s1,s2;
 
     @NonNull
@@ -79,8 +78,6 @@ public class myAdapter3_kalmat extends RecyclerView.Adapter<myAdapter3_kalmat.ho
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-
 
                 Intent intent=new Intent(context, pehla_kalma.class);
                 intent.putExtra("id",position);

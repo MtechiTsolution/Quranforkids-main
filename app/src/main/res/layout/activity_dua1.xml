@@ -15,7 +15,7 @@
         android:gravity="center"
         android:id="@+id/title2"
         android:fontFamily="@font/urdufont"
-        android:backgroundTint="#C2185B"
+        android:background="#ABF4EC"
         android:textColor="@color/black">
     </TextView>
 
@@ -40,7 +40,7 @@
                 android:id="@+id/arabic"
                 android:textIsSelectable="true"
                 android:fontFamily="@font/nabi_regular"
-                android:background="@drawable/kalma_border"
+                android:background="@drawable/dua_border"
                 android:text="اَللّٰھُمَّ بِاسْمِکَ  اَمُوْتُ وَاَحْیَا"
                 android:textSize="28sp">
             </TextView>

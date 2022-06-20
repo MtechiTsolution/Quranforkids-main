@@ -20,12 +20,11 @@ public class More extends AppCompatActivity {
         c1= findViewById(R.id.card1);
         c2=findViewById(R.id.card2);
         c2.setOnClickListener(new View.OnClickListener() {
+            private android.content.Context context;
             private Object Context;
-
             @Override
             public void onClick(View view) {
-
-                    final Dialog dialog = new Dialog(MainActivity.this); // Context, this, etc.
+                    final Dialog dialog = new Dialog(context); // Context, this, etc.
                     dialog.setContentView(R.layout.activity_more);
                     dialog.setTitle(R.string.app_name);
                     dialog.show();
