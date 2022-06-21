@@ -12,8 +12,8 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginLeft="5dp"
-        android:src="@drawable/angrychild"
+
+        android:src="@drawable/kids_more"
         android:layout_gravity="center"
         >
     </ImageView>
@@ -36,7 +36,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="5dp"
-                android:src="@drawable/ic_share"
+                android:src="@drawable/ic_baseline_share_24"
                 android:layout_gravity="center"
                 >
             </ImageView>
@@ -45,7 +45,7 @@
                 android:layout_height="match_parent"
                 android:text="Share App"
                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
-                android:textColor="#BA054C"
+                android:textColor="#F66EBF"
                 android:textSize="25dp"
 
                 android:gravity="center|left"
@@ -71,7 +71,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="5dp"
-                android:src="@drawable/ic_about"
+                android:src="@drawable/ic_baseline_info_24"
                 android:layout_gravity="center"
                 >
             </ImageView>
@@ -79,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="About Us"
-                android:textColor="#BA054C"
+                android:textColor="#F66EBF"
                 android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
                 android:textSize="25dp"
                 android:gravity="center|left"
@@ -105,7 +105,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="5dp"
-                android:src="@drawable/help"
+                android:src="@drawable/ic_baseline_help_24"
                 android:layout_gravity="center"
                 >
             </ImageView>
@@ -113,7 +113,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Help"
-                android:textColor="#BA054C"
+                android:textColor="#F66EBF"
                 android:drawablePadding="10dp"
                 android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
                 android:textSize="25dp"

@@ -25,6 +25,7 @@
                 android:layout_weight="1"
                 android:id="@+id/ayat_arabic"
                 android:textColor="#8F0F98"
+                android:textIsSelectable="true"
                 android:fontFamily="@font/nabi_regular"
                 android:paddingRight="10dp"
                 android:text="(1)أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ"
@@ -37,6 +38,7 @@
                 android:paddingLeft="10dp"
                 android:id="@+id/e_translation"
                 android:textColor="#8F0F98"
+                android:textIsSelectable="true"
                 android:text="Have you not seen ˹O Prophet˺ how your Lord dealt with the Army of the Elephant?"
                 android:textSize="20sp">
             </TextView>
@@ -47,6 +49,7 @@
                 android:fontFamily="@font/urdufont"
                 android:paddingLeft="10dp"
                 android:textColor="#8F0F98"
+                android:textIsSelectable="true"
                 android:id="@+id/urdu_translation"
                 android:text="کیا تم نے نہیں دیکھا کہ تمہارے پروردگار نے ہاتھی والوں کے ساتھ کیا کیا"
                 android:textSize="20sp">

@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-android:background="@color/white"
+android:background="@drawable/ddd_klma"
+    android:layout_gravity="center"
     android:orientation="vertical"
 
     tools:context=".pehla_kalma">
@@ -23,18 +24,19 @@ android:background="@color/white"
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/white">
+            >
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/linear_kalmat"
-                android:background="@color/white"
+                android:background="@drawable/ddd_klma"
+
                 android:orientation="vertical">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="40dp">
-
                 </LinearLayout>
+
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
@@ -48,7 +50,7 @@ android:background="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:background="@drawable/ddd_klma"
+                    android:background="@color/white"
                     android:gravity="center"
                     android:orientation="horizontal"
                     android:padding="5dp">
@@ -57,7 +59,6 @@ android:background="@color/white"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="k"
-
                         android:fontFamily="@font/bismillah"
                         android:textSize="45sp"
                         android:textColor="@color/black"
@@ -79,7 +80,7 @@ android:background="@color/white"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:background="@drawable/ddd_klma"
+                        android:background="@color/white"
                         android:orientation="horizontal"
                         android:padding="5dp">
 
@@ -93,6 +94,7 @@ android:background="@color/white"
                             android:id="@+id/arabic"
                             android:text="لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله"
                             android:textSize="25sp"
+                            android:textIsSelectable="true"
                             android:gravity="center"
                             >
                         </TextView>
@@ -112,7 +114,7 @@ android:background="@color/white"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:background="@drawable/ddd_klma"
+                        android:background="@color/white"
                         android:orientation="horizontal"
                         android:padding="5dp">
 
@@ -120,12 +122,14 @@ android:background="@color/white"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textColor="@color/black"
-                            android:paddingLeft="15dp"
+                            android:padding="5dp"
                             android:fontFamily="serif"
+                            android:textIsSelectable="true"
+                            android:textAlignment="center"
                             android:id="@+id/e_trans"
                             android:text="There is no God but Allah. Muhammad is the Messenger of Allah."
                             android:textSize="20sp"
-                            android:gravity="center"
+
                             >
                         </TextView>
 
@@ -144,7 +148,7 @@ android:background="@color/white"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:background="@drawable/ddd_klma"
+                        android:background="@color/white"
                         android:orientation="horizontal"
                         android:padding="5dp">
                         <TextView
@@ -154,17 +158,13 @@ android:background="@color/white"
                             android:gravity="center"
                             android:fontFamily="@font/urdufont"
                             android:id="@+id/u_trans"
+                            android:textIsSelectable="true"
                             android:text="اللہ کے سوا کوئی معبود نہیں محمّدؐ اللہ کے رسول ہے"
                             android:textSize="20sp">
                         </TextView>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                </LinearLayout>
 
             </LinearLayout>
         </ScrollView>
