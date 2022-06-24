@@ -70,7 +70,7 @@ public class ListenClick extends AppCompatActivity {
 
                         return true;
                     case R.id.book_mark:
-                        startActivity(new Intent(getApplicationContext(), Surah_read_click.class));
+                        startActivity(new Intent(getApplicationContext(), bookmark.class));
                         finishAffinity();
 //                        Intent intent1= new Intent(Kalma_read_click.this,MainActivity.class);
 //                        startActivity(intent1);

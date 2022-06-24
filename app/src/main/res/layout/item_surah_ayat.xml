@@ -39,6 +39,9 @@
                 android:id="@+id/e_translation"
                 android:textColor="#8F0F98"
                 android:textIsSelectable="true"
+
+                android:editable="true"
+
                 android:text="Have you not seen ˹O Prophet˺ how your Lord dealt with the Army of the Elephant?"
                 android:textSize="20sp">
             </TextView>
@@ -50,6 +53,7 @@
                 android:paddingLeft="10dp"
                 android:textColor="#8F0F98"
                 android:textIsSelectable="true"
+
                 android:id="@+id/urdu_translation"
                 android:text="کیا تم نے نہیں دیکھا کہ تمہارے پروردگار نے ہاتھی والوں کے ساتھ کیا کیا"
                 android:textSize="20sp">

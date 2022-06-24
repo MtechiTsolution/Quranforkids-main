@@ -92,9 +92,9 @@ android:background="@drawable/ddd_klma"
                             android:fontFamily="@font/nabi_regular"
                             android:paddingRight="15dp"
                             android:id="@+id/arabic"
+                            android:textIsSelectable="true"
                             android:text="لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله"
                             android:textSize="25sp"
-                            android:textIsSelectable="true"
                             android:gravity="center"
                             >
                         </TextView>
@@ -124,9 +124,10 @@ android:background="@drawable/ddd_klma"
                             android:textColor="@color/black"
                             android:padding="5dp"
                             android:fontFamily="serif"
-                            android:textIsSelectable="true"
+
                             android:textAlignment="center"
                             android:id="@+id/e_trans"
+                            android:textIsSelectable="true"
                             android:text="There is no God but Allah. Muhammad is the Messenger of Allah."
                             android:textSize="20sp"
 

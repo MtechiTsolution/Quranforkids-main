@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:background="#fff"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_viewr"
+            android:layout_width="match_parent"
+            android:layout_marginTop="7dp"
+            android:layout_height="80dp"
+
+            app:lottie_rawRes="@raw/about"
+            app:lottie_loop="true"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#C60303"
+            android:textSize="15dp"
+            android:fontFamily="serif"
+            android:text="Do you know about\n PayEarn??"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:gravity="center"
+            tools:ignore="MissingConstraints">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#C60303"
+            android:textSize="12dp"
+            android:fontFamily="serif"
+            android:text="Steps"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:gravity="fill_horizontal"
+            tools:ignore="MissingConstraints">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_marginRight="7dp"
+            android:text="💫PayEarn is an application that gives you money at home just by watching AIDS.\n\n💫it has many Features like viewing ads,withdraw money etc.\n\n💫You can't withdraw less than two hundred dollars.
+            \n\n💫PayEarn is very easy to use.You can change your profile from side menus,see your earnings\n\n💫Your personal information is absolutely secure in PayEarn\n\n💫You can easily withdraw your money            to any account by clicking on the Withdraw button and using the given procedure when the given limit is met.
+            \n\n💫Please do not share your account number and account PIN with anyone. The developer will not be responsible for any transaction violations.  And his account will be blocked.\n
+            \n💫Please read the given policy carefully. Any violation will be dealt with severely.
+            \n💫Don't click on ads again and again.it will be considered as Violation.\n\n Thank you ❗">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#C60303"
+            android:textSize="12dp"
+            android:fontFamily="serif"
+            android:text="✨✨✨✨✨✨✨✨"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:gravity="center"
+            tools:ignore="MissingConstraints">
+        </TextView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/gradient"
+            android:layout_gravity="center"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:shadowRadius="1"
+            android:shadowColor="#1F3CE3"
+            android:id="@+id/abt"
+            android:layout_marginTop="20dp"
+            android:text="Ok"
+            android:textAllCaps="false"
+
+            >
+
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            >
+
+        </TextView>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
