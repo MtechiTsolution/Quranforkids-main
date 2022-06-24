@@ -17,7 +17,7 @@
         android:gravity="center"
         android:id="@+id/titledua"
         android:fontFamily="@font/urdufont"
-        android:background="#ACEC77"
+        android:background="@drawable/gradientdua"
         android:textColor="@color/black">
     </TextView>
 
@@ -37,7 +37,7 @@
         android:id="@+id/arabicdua"
         android:textIsSelectable="true"
         android:fontFamily="@font/nabi_regular"
-        android:background="#B1F179"
+        android:background="#F67BAC"
         android:text="اَللّٰھُمَّ بِاسْمِکَ  اَمُوْتُ وَاَحْیَا"
         android:textSize="30sp">
     </TextView>

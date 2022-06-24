@@ -36,11 +36,10 @@ public class myAdapter3_kalmat extends RecyclerView.Adapter<myAdapter3_kalmat.ho
     public myAdapter3_kalmat(Context context, ArrayList<Kalmat_model> arrayList){
         this.context=context;
         this.arrayList=arrayList;
-
     }
 //    public myAdapter(String[] data) {
 //        this.data = data;
-//    }
+//    },[],,=
 //   String s1,s2;
 
     @NonNull
@@ -70,7 +69,7 @@ public class myAdapter3_kalmat extends RecyclerView.Adapter<myAdapter3_kalmat.ho
 
 
 
-        holder.text1.setText(arrayList.get(position).titile);
+        holder.text1.setText(arrayList.get(position).arabic_tittle);
 
 //        holder.text3.setText(arrayList.get(position).arabic_tittle);
         holder.text2.setText(arrayList.get(position).sr_no_surah);
@@ -79,8 +78,6 @@ public class myAdapter3_kalmat extends RecyclerView.Adapter<myAdapter3_kalmat.ho
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-
 
                 Intent intent=new Intent(context, pehla_kalma.class);
                 intent.putExtra("id",position);
@@ -101,14 +98,16 @@ public class myAdapter3_kalmat extends RecyclerView.Adapter<myAdapter3_kalmat.ho
     }
 
     public class holder extends RecyclerView.ViewHolder{
+
         //        ImageView imgcontaxt;
+
         TextView text1,text2;
         LinearLayout linearLayout;
         CardView cardView;
         public holder(@NonNull View itemView) {
             super(itemView);
             linearLayout=itemView.findViewById(R.id.dua_one_kalma);
-            text1=itemView.findViewById(R.id.kalma_title);
+            text1=itemView.findViewById(R.id.surah_title_arabic);
             text2=itemView.findViewById(R.id.sr_no_kalma);
 //            text3=itemView.findViewById(R.id.surah_title_arabic);
         }

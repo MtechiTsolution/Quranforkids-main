@@ -24,7 +24,6 @@
             android:id="@+id/surah_two"
             android:orientation="horizontal"
             android:padding="5dp">
-
             <TextView
                 android:id="@+id/sr_no_surah"
                 android:layout_width="match_parent"
@@ -41,7 +40,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.9"
+                android:layout_weight="0.8"
                 android:id="@+id/surah_title"
                 android:textColor="@color/white"
                 android:paddingLeft="5dp"

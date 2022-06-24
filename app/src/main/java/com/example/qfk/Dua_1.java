@@ -34,21 +34,16 @@ public class Dua_1 extends AppCompatActivity {
         e_trans=findViewById(R.id.e_trans);
         imageView=findViewById(R.id.image);
 
-
-
         Intent intent=getIntent();
         int intValue = intent.getIntExtra("id", 0);
         Dua_model dua_model=alldata.dua_model.get(intValue);
-        title.setBackgroundColor(dua_model.color);
+       // title.setBackgroundColor(dua_model.color);
 
         title.setText(dua_model.title2);
         arabic.setText(dua_model.arabic);
         e_trans.setText(dua_model.e_transalation);
         u_trans.setText(dua_model.u_translation);
         imageView.setImageResource(dua_model.image);
-
-
-
 
     }
 }

@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+android:background="@drawable/ddd_klma"
+    android:layout_gravity="center"
     android:orientation="vertical"
 
     tools:context=".pehla_kalma">
@@ -16,36 +17,40 @@
       android:textSize="35sp"
       android:gravity="center"
         android:id="@+id/title2"
+        android:background="@drawable/gradientdua"
       android:fontFamily="@font/urdufont"
         android:textColor="@color/black">
   </TextView>
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            >
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/linear_kalmat"
-                android:background="#690097"
+                android:background="@drawable/ddd_klma"
+
                 android:orientation="vertical">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="40dp">
-
                 </LinearLayout>
+
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
                     app:cardCornerRadius="25dp"
-                    app:cardElevation="15dp">
+                    app:cardBackgroundColor="@color/white"
+                    app:cardElevation="0dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:background="#FFFFFF"
+                    android:background="@color/white"
                     android:gravity="center"
                     android:orientation="horizontal"
                     android:padding="5dp">
@@ -56,7 +61,7 @@
                         android:text="k"
                         android:fontFamily="@font/bismillah"
                         android:textSize="45sp"
-                        android:textColor="#690097"
+                        android:textColor="@color/black"
                         android:gravity="center">
                     </TextView>
 
@@ -67,14 +72,15 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     app:cardCornerRadius="25dp"
-                    app:cardElevation="15dp">
+                    app:cardBackgroundColor="@color/white"
+                    app:cardElevation="0dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:background="#FFFFFF"
                         android:gravity="center"
+                        android:background="@color/white"
                         android:orientation="horizontal"
                         android:padding="5dp">
 
@@ -82,12 +88,13 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textColor="#690097"
+                            android:textColor="@color/black"
                             android:fontFamily="@font/nabi_regular"
                             android:paddingRight="15dp"
                             android:id="@+id/arabic"
                             android:text="لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله"
                             android:textSize="25sp"
+                            android:textIsSelectable="true"
                             android:gravity="center"
                             >
                         </TextView>
@@ -99,27 +106,30 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     app:cardCornerRadius="25dp"
-                    app:cardElevation="15dp">
+                    app:cardBackgroundColor="@color/white"
+                    app:cardElevation="0dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:background="#FFFFFF"
                         android:gravity="center"
+                        android:background="@color/white"
                         android:orientation="horizontal"
                         android:padding="5dp">
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textColor="#690097"
-                            android:paddingLeft="15dp"
+                            android:textColor="@color/black"
+                            android:padding="5dp"
                             android:fontFamily="serif"
+                            android:textIsSelectable="true"
+                            android:textAlignment="center"
                             android:id="@+id/e_trans"
                             android:text="There is no God but Allah. Muhammad is the Messenger of Allah."
                             android:textSize="20sp"
-                            android:gravity="center"
+
                             >
                         </TextView>
 
@@ -130,34 +140,31 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     app:cardCornerRadius="25dp"
-                    app:cardElevation="15dp">
+                    app:cardBackgroundColor="@color/white"
+                    app:cardElevation="0dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:background="#FFFFFF"
                         android:gravity="center"
+                        android:background="@color/white"
                         android:orientation="horizontal"
                         android:padding="5dp">
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textColor="#690097"
+                            android:textColor="@color/black"
                             android:gravity="center"
                             android:fontFamily="@font/urdufont"
                             android:id="@+id/u_trans"
+                            android:textIsSelectable="true"
                             android:text="اللہ کے سوا کوئی معبود نہیں محمّدؐ اللہ کے رسول ہے"
                             android:textSize="20sp">
                         </TextView>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp">
-
-                </LinearLayout>
 
             </LinearLayout>
         </ScrollView>

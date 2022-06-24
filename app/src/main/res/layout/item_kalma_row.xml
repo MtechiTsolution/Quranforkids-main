@@ -26,15 +26,18 @@
             android:orientation="vertical"
             >
             <TextView
-                android:id="@+id/sr_no_kalma"
-                android:layout_width="match_parent"
+                android:id="@+id/surah_title_arabic"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:fontFamily="@font/bubblegum"
+                android:background="@drawable/kalma_border"
+                android:padding="7dp"
+                android:fontFamily="@font/b612"
                 android:gravity="center"
                 android:text="1"
-                android:textColor="#fff"
-                android:textSize="25sp"
+
+                android:textColor="@color/black"
+                android:textSize="40sp"
                 android:textStyle="bold">
 
             </TextView>
@@ -42,12 +45,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="0.9"
+                android:id="@+id/sr_no_kalma"
                 android:textColor="@color/white"
-                android:fontFamily="@font/b612"
-                android:id="@+id/kalma_title"
+                android:fontFamily="@font/urdufont"
                 android:gravity="center"
                 android:text="سوتے وقت کی دعا"
-                android:textSize="20sp">
+                android:textSize="35sp">
             </TextView>
 
 
