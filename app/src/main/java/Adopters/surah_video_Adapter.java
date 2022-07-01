@@ -40,7 +40,7 @@ public class surah_video_Adapter  extends RecyclerView.Adapter<surah_video_Adapt
         View view=Inflater.inflate(R.layout.row_item_video_surah,parent,false);
 
         //Toast.makeText(context, ""+arrayList.size(), Toast.LENGTH_SHORT).show();
-        Toast.makeText(context, ""+arrayList.size(), Toast.LENGTH_SHORT).show();
+       // Toast.makeText(context, ""+arrayList.size(), Toast.LENGTH_SHORT).show();
         return new surah_video_Adapter.holder(view);
     }
 

@@ -7,8 +7,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="QFK"
+        android:icon="@drawable/kids_more"
+        android:label="Quran For Kids"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QFK">
@@ -21,17 +21,27 @@
         <activity
             android:name=".Video_Act"
             android:exported="true"
+<<<<<<< Updated upstream
             android:screenOrientation="landscape" />
         <activity
             android:name=".SurahVideo"
             android:exported="false" />
+=======
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity
+            android:name=".SurahVideo"
+            android:exported="false">
+
+        </activity>
+>>>>>>> Stashed changes
         <activity
             android:name=".Splash_Screen"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

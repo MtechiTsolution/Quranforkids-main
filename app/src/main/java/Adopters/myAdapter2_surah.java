@@ -51,10 +51,10 @@ public class myAdapter2_surah extends RecyclerView.Adapter<myAdapter2_surah.hold
         Surah_model p=arrayList.get(position);
 
         Random r = new Random();
-        int red=r.nextInt(2000 - 0 + 1)+0;
+        int red=r.nextInt(255 - 0 + 3)+0;
         int green=r.nextInt(2000 - 0 + 1)+0;
-        int blue=r.nextInt(2000 - 0 + 1)+0;
-        int pink=r.nextInt(2000 - 0 + 1)+0;
+        int blue=r.nextInt(255 - 0 + 5)+0;
+        int pink=r.nextInt(255 - 0 + 9)+0;
         GradientDrawable draw = new GradientDrawable();
         draw.setShape(GradientDrawable.RECTANGLE);
         draw.setColor(Color.rgb(red,pink,blue));
