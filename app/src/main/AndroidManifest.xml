@@ -21,21 +21,13 @@
         <activity
             android:name=".Video_Act"
             android:exported="true"
-<<<<<<< Updated upstream
             android:screenOrientation="landscape" />
         <activity
             android:name=".SurahVideo"
-            android:exported="false" />
-=======
+            android:exported="false"
             android:screenOrientation="landscape">
 
         </activity>
-        <activity
-            android:name=".SurahVideo"
-            android:exported="false">
-
-        </activity>
->>>>>>> Stashed changes
         <activity
             android:name=".Splash_Screen"
             android:exported="true"
