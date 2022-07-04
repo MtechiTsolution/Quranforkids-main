@@ -6,6 +6,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.provider.CalendarContract;
 
 import com.Models.Dua_model;
+import com.Models.bookmark_model;
 import com.example.qfk.R;
 
 import java.util.ArrayList;
@@ -13,6 +14,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class alldata {
+     public static ArrayList<bookmark_model> bookmarkdata =new ArrayList<>();
      public static final ArrayList<Dua_model> dua_model=
              new ArrayList<>(Arrays.asList(
     new Dua_model("سوتے وقت کی دعا","1","سوتے وقت ", "اَللّٰھُمَّ بِاسْمِکَ  اَمُوْتُ وَاَحْیَا","O Allah (Almighty) I live and die in your name.","الٰہی عزوجل میں تیرے نام پر مرتا ہوں اور جیتا ہوں۔", R.drawable.ss_leep, Color.WHITE),

@@ -15,6 +15,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+
 import com.Models.Dua_model;
 import com.Models.surah_video_model;
 import com.example.qfk.Dua_1;

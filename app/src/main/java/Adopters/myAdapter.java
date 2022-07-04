@@ -27,9 +27,11 @@ import java.util.Random;
 public class myAdapter extends RecyclerView.Adapter<myAdapter.holder> {
     Context context;
     ArrayList<Dua_model> arrayList;
+//    int surhid;
     public myAdapter(Context context, ArrayList<Dua_model> arrayList){
         this.context=context;
         this.arrayList=arrayList;
+//        this.surhid=surhid;
 
     }
 //    public myAdapter(String[] data) {
@@ -69,6 +71,7 @@ public class myAdapter extends RecyclerView.Adapter<myAdapter.holder> {
                 Intent intent=new Intent(context, Dua_1.class);
                 intent.putExtra("id",position);
                 context.startActivity(intent);
+
             }
         });
 

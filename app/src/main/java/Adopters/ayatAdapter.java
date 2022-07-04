@@ -7,25 +7,33 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.Models.Aya_Model;
 import com.Models.Dua_model;
 import com.Models.Surah_model;
+import com.Models.bookmark_model;
+import com.example.localdata.alldata;
 import com.example.qfk.R;
+import com.example.qfk.Surah_1;
+import com.example.qfk.bookmark;
 
 import java.util.ArrayList;
 
 public class ayatAdapter  extends  RecyclerView.Adapter<ayatAdapter.holder>{
     Context context;
     ArrayList<Aya_Model> arrayList;
-    public ayatAdapter(Context context, ArrayList<Aya_Model> arrayList){
+    int surhid;
+    public ayatAdapter(Context context, ArrayList<Aya_Model> arrayList,int surhid){
         this.context=context;
         this.arrayList=arrayList;
-
+        this.surhid=surhid;
     }
     @NonNull
     @Override
@@ -40,6 +48,16 @@ public class ayatAdapter  extends  RecyclerView.Adapter<ayatAdapter.holder>{
         holder.text1.setText(arrayList.get(position).getArbi());
         holder.text2.setText(arrayList.get(position).getEnglish());
         holder.text3.setText(arrayList.get(position).getUrdu());
+        holder.imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if(surhid!=-1){
+                    alldata.bookmarkdata.add(new bookmark_model(position,surhid));
+                    Toast.makeText(context,"Bookmark",Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
 
 
     }
@@ -52,11 +70,15 @@ public class ayatAdapter  extends  RecyclerView.Adapter<ayatAdapter.holder>{
     public class holder extends RecyclerView.ViewHolder{
        // ImageView imgcontaxt;
         TextView text1,text2,text3;
+        LinearLayout lb;
+        ImageView imageView;
         public holder(@NonNull View itemView) {
             super(itemView);
             text1=itemView.findViewById(R.id.ayat_arabic);
             text2=itemView.findViewById(R.id.e_translation);
             text3=itemView.findViewById(R.id.urdu_translation);
+            lb=itemView.findViewById(R.id.crdl);
+            imageView=itemView.findViewById(R.id.book_);
         }
     }
 }

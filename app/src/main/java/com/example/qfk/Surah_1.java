@@ -47,7 +47,7 @@ public class Surah_1 extends AppCompatActivity {
 
         rec.setLayoutManager(new LinearLayoutManager(this));
        // Toast.makeText(Surah_1.this, ""+surah_model.ayats.size(), Toast.LENGTH_SHORT).show();
-        ayatAdapter ayatAdapter=new ayatAdapter(this, surah_model.ayats);
+        ayatAdapter ayatAdapter=new ayatAdapter(this, surah_model.ayats,intValue);
         rec.setAdapter(ayatAdapter);
 //
         title.setText(surah_model.arabic_tittle);

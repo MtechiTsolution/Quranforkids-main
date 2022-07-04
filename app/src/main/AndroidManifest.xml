@@ -21,21 +21,11 @@
         <activity
             android:name=".Video_Act"
             android:exported="true"
-<<<<<<< Updated upstream
             android:screenOrientation="landscape" />
         <activity
             android:name=".SurahVideo"
-            android:exported="false" />
-=======
-            android:screenOrientation="landscape">
-
-        </activity>
-        <activity
-            android:name=".SurahVideo"
-            android:exported="false">
-
-        </activity>
->>>>>>> Stashed changes
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".Splash_Screen"
             android:exported="true"
@@ -107,6 +97,6 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-    </application>
+        </application>
 
-</manifest>
+    </manifest>

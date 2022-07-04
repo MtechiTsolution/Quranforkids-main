@@ -3,11 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-
+    android:id="@+id/crdl"
     android:orientation="vertical">
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         app:cardCornerRadius="12dp"
         android:layout_margin="4dp"
       >
@@ -17,8 +18,19 @@
             android:layout_gravity="center"
             android:background="#FFFFFF"
             android:gravity="center"
+
             android:orientation="vertical"
             android:padding="5dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/book_"
+                android:layout_marginLeft="7dp"
+                android:layout_gravity="left"
+                android:src="@drawable/ic_baseline_favorite_border_24">
+
+            </ImageView>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -39,9 +51,6 @@
                 android:id="@+id/e_translation"
                 android:textColor="#8F0F98"
                 android:textIsSelectable="true"
-
-                android:editable="true"
-
                 android:text="Have you not seen ˹O Prophet˺ how your Lord dealt with the Army of the Elephant?"
                 android:textSize="20sp">
             </TextView>
