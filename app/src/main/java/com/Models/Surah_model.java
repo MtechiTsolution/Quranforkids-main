@@ -12,7 +12,7 @@ public class Surah_model {
     public String arabicc;
     public String e_transalationn;
     public String u_translationn;
-     public ArrayList<Aya_Model> ayats;
+    public ArrayList<Aya_Model> ayats;
 
     public Surah_model(String titile, String sr_no_surah,
                        String arabic_tittle,
@@ -24,6 +24,6 @@ public class Surah_model {
         this.sr_no_surah = sr_no_surah;
         this.e_transalationn = e_transalationn;
         this.u_translationn = u_translationn;
-        this.ayats=ayats;
+        this.ayats = ayats;
     }
 }

@@ -25,7 +25,13 @@
         <activity
             android:name=".SurahVideo"
             android:exported="false"
+<<<<<<< HEAD
             android:screenOrientation="landscape"/>
+=======
+            android:screenOrientation="landscape">
+
+        </activity>
+>>>>>>> 2a691352505f0f573f9b7ffa746e1cbccf723a93
         <activity
             android:name=".Splash_Screen"
             android:exported="true"
